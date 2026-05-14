@@ -141,12 +141,15 @@
 <div class="section" id="needs">
   <div class="section-title">使用者在 AI 工具網站上的真實需求</div>
   <div class="needs-grid">
-    <div class="need-card"><h4>🔍 快速比較與篩選</h4><p>用戶不想一個一個點開看，需要按分類、價格、評分直接篩選出候選清單</p></div>
-    <div class="need-card"><h4>🎯 場景導向推薦</h4><p>「我要做簡報」、「我要寫論文」— 用戶想要直接對應使用情境的推薦</p></div>
-    <div class="need-card"><h4>💰 價格透明化</h4><p>免費方案夠用嗎？付費版多了什麼？用戶要清楚透明的答案</p></div>
-    <div class="need-card"><h4>🛡️ 信任與安全</h4><p>這工具安全嗎？資料會被拿來訓練嗎？商用有沒有版權問題？</p></div>
-    <div class="need-card"><h4>📚 使用教學</h4><p>拿到工具後怎麼用？用戶需要 Prompt 範例、快速入門指南、最佳實踐</p></div>
-    <div class="need-card"><h4>🔗 整合資訊</h4><p>這個工具能接 Slack、Notion、GitHub 嗎？API 好不好串？</p></div>
+    <div class="need-card"><h4>🔍 快速比較與篩選</h4><p>用戶不想一個一個點開看，需要按分類、價格、評分直接篩選出候選清單，節省選擇時間。</p></div>
+    <div class="need-card"><h4>🎯 場景導向推薦</h4><p>「我要做簡報」、「我要寫論文」— 用戶想要直接對應使用情境的推薦，而非泛泛的工具清單。</p></div>
+    <div class="need-card"><h4>💰 價格完全透明</h4><p>免費版夠用嗎？付費版多了什麼？有沒有隱藏費用？用戶需要清楚的費用結構，不想被「月費只是起點」坑到。</p></div>
+    <div class="need-card"><h4>🛡️ 信任與資料安全</h4><p>這工具安全嗎？資料會被拿來訓練嗎？商用有沒有版權問題？2026 年用戶對隱私的要求比以往更高。</p></div>
+    <div class="need-card"><h4>📚 上手教學與 Prompt</h4><p>拿到工具後怎麼用？用戶需要具體的 Prompt 範例、快速入門指南，而不只是功能介紹。</p></div>
+    <div class="need-card"><h4>🔗 整合與 API 資訊</h4><p>這工具能接 Slack、Notion、GitHub 嗎？API 好不好串？多工具組合已是 2026 年主流工作模式。</p></div>
+    <div class="need-card"><h4>🌐 繁體中文支援</h4><p>工具介面是中文嗎？輸出內容會跑出簡體字嗎？台灣用戶最在意的實際使用體驗，往往被忽略。</p></div>
+    <div class="need-card"><h4>⚡ AI Agent 自動化能力</h4><p>2026 年用戶不只要「助手」，更要能自主完成多步驟任務的 Agent。光是對話已不夠，要能真正幫你做事。</p></div>
+    <div class="need-card"><h4>🧩 最少訂閱覆蓋最多需求</h4><p>用戶不想同時訂閱五個工具，想知道哪個組合能用最低預算 cover 最多使用場景，性價比才是關鍵。</p></div>
   </div>
 </div>
 
@@ -166,7 +169,7 @@ var tools = [
   { name: 'Gemini', icon: '✨', color: '#4285f4', cat: '對話/研究', desc: 'Google 的 AI 助手，與 Google Workspace 深度整合，適合 Google 生態系用戶。', price: '免費 / $20/月', rating: '★★★★☆ 4.5', free: true, url: 'https://gemini.google.com' },
   { name: 'Perplexity', icon: '🔭', color: '#6366f1', cat: '對話/研究', desc: '結合搜尋引擎的 AI，回答會附帶來源，適合研究查資料。', price: '免費 / $20/月', rating: '★★★★☆ 4.6', free: true, url: 'https://perplexity.ai' },
   { name: 'Cursor', icon: '💻', color: '#0ea5e9', cat: '程式開發', desc: '目前最受開發者歡迎的 AI 編輯器，支援整個 codebase 的理解與修改。', price: '免費 / $20/月', rating: '★★★★★ 4.9', free: true, url: 'https://www.cursor.com' },
-  { name: 'GitHub Copilot', icon: '🐙', color: '#24292e', cat: '程式開發', desc: 'GitHub 官方 AI 助手，整合在主流編輯器，適合已有 GitHub 習慣的開發者。', price: '$10/月起', rating: '★★★★☆ 4.6', free: true, url: 'https://github.com/features/copilot' },
+  { name: 'GitHub Copilot', icon: '🐙', color: '#24292e', cat: '程式開發', desc: 'GitHub 官方 AI 助手，整合在 VS Code 等主流編輯器，適合已有 GitHub 習慣的開發者。', price: '$10/月起', rating: '★★★★☆ 4.6', free: true, url: 'https://github.com/features/copilot' },
   { name: 'Claude Code', icon: '⚡', color: '#d97706', cat: '程式開發', desc: 'Anthropic 的 CLI 編程 Agent，可自主完成複雜的多步驟開發任務。', price: '依 API 用量計費', rating: '★★★★☆ 4.5', free: false, url: 'https://claude.ai/code' },
   { name: 'Midjourney', icon: '🎨', color: '#7c3aed', cat: '設計創作', desc: '業界公認圖片品質最高的 AI 繪圖工具，風格多樣，適合創作者與設計師。', price: '$10/月起', rating: '★★★★★ 4.7', free: false, url: 'https://www.midjourney.com' },
   { name: 'Canva AI', icon: '🖌️', color: '#00c4cc', cat: '設計創作', desc: '設計平台 Canva 內建 AI 功能，不需設計背景也能快速產出專業素材。', price: '免費 / $15/月', rating: '★★★★☆ 4.5', free: true, url: 'https://www.canva.com' },
@@ -175,7 +178,7 @@ var tools = [
   { name: 'Sora', icon: '🎥', color: '#0f172a', cat: '影片生成', desc: 'OpenAI 的文字轉影片模型，畫面品質驚人，目前開放 ChatGPT Plus 用戶使用。', price: '含於 ChatGPT+', rating: '★★★★☆ 4.6', free: false, url: 'https://sora.com' },
   { name: 'Kling AI', icon: '🌀', color: '#8b5cf6', cat: '影片生成', desc: '快手出品的影片生成工具，支援中文 prompt，性價比高。', price: '免費 / 訂閱制', rating: '★★★★☆ 4.4', free: true, url: 'https://klingai.com' },
   { name: 'Notion AI', icon: '📝', color: '#000', cat: '寫作', desc: 'Notion 內建 AI，適合已在使用 Notion 的用戶做筆記整理、文件撰寫。', price: '$10/月', rating: '★★★★☆ 4.3', free: false, url: 'https://www.notion.so' },
-  { name: 'Grammarly', icon: '✅', color: '#15c39a', cat: '寫作', desc: '英文寫作輔助工具，語法修正、風格建議、剽竊檢查，適合需要英文寫作的用戶。', price: '免費 / $12/月', rating: '★★★★☆ 4.4', free: true, url: 'https://www.grammarly.com' },
+  { name: 'Grammarly', icon: '✅', color: '#15c39a', cat: '寫作', desc: '英文寫作輔助工具，語法修正、風格建議、適合需要英文寫作的用戶。', price: '免費 / $12/月', rating: '★★★★☆ 4.4', free: true, url: 'https://www.grammarly.com' },
   { name: 'Jasper', icon: '✍️', color: '#f97316', cat: '寫作', desc: '專為行銷內容設計的 AI 寫作工具，支援多種行銷文案範本。', price: '$39/月起', rating: '★★★★☆ 4.2', free: false, url: 'https://www.jasper.ai' },
   { name: 'ElevenLabs', icon: '🎙️', color: '#0d9488', cat: '寫作', desc: 'AI 語音合成工具，聲音自然度極高，適合 Podcast、有聲書、配音需求。', price: '免費 / $5/月', rating: '★★★★★ 4.7', free: true, url: 'https://elevenlabs.io' },
   { name: 'Make', icon: '⚙️', color: '#6d28d9', cat: '自動化', desc: '視覺化工作流程自動化平台，可整合 1000+ 應用，不需寫程式。', price: '免費 / $9/月', rating: '★★★★☆ 4.5', free: true, url: 'https://www.make.com' },
