@@ -3,80 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI工具導航 2026 - 最新 AI 工具推薦、比較與評測 | 免費版一覽</title>
-  <meta name="description" content="2026 年最完整 AI 工具導航。收錄 ChatGPT、Claude、Cursor、Midjourney 等 20+ 熱門工具，依使用場景、預算、需求精準推薦，繁體中文介面友善。" />
-  <meta name="keywords" content="AI工具推薦, AI工具比較, ChatGPT, Claude, Cursor, Midjourney, AI繪圖, AI寫作, 2026 AI工具, 免費AI工具, 台灣AI工具" />
+  <title>AI工具導航 2026 - 最新 AI 工具推薦、比較與 Prompt 範例 | 繁體中文</title>
+  <meta name="description" content="2026 最完整 AI 工具導航，收錄 25+ 熱門工具含台灣本地工具，每款附 Prompt 範例、優缺點、價格比較，依使用場景精準推薦，繁體中文友善。" />
+  <meta name="keywords" content="AI工具推薦, AI工具比較, ChatGPT, Claude, Cursor, Midjourney, NotebookLM, Gamma, MyEdit, 台灣AI工具, 免費AI工具, 2026 AI工具, AI Prompt" />
   <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="AI工具導航 2026 - 最新 AI 工具推薦與比較" />
-  <meta property="og:description" content="收錄 20+ 熱門 AI 工具，依場景、預算精準推薦。免費版一覽，繁體中文友善。" />
+  <meta property="og:title" content="AI工具導航 2026 - 25+ AI 工具推薦、Prompt 範例、場景推薦" />
+  <meta property="og:description" content="收錄 25+ 熱門 AI 工具含台灣本地工具，每款附 Prompt 範例，依場景精準推薦，繁體中文友善。" />
   <meta property="og:type" content="website" />
   <meta name="google-adsense-account" content="ca-pub-5001125823079992" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --navy: #0f172a;
-      --blue: #0ea5e9;
-      --blue-light: #38bdf8;
-      --green: #16a34a;
-      --red: #dc2626;
-      --amber: #f59e0b;
-      --gray-50: #f8fafc;
-      --gray-100: #f1f5f9;
-      --gray-200: #e2e8f0;
-      --gray-400: #94a3b8;
-      --gray-500: #64748b;
-      --gray-600: #475569;
-      --gray-900: #1e293b;
-      --radius: 14px;
-      --shadow: 0 4px 20px rgba(0,0,0,.08);
-      --shadow-hover: 0 8px 32px rgba(0,0,0,.14);
+      --navy: #0f172a; --blue: #0ea5e9; --blue-light: #38bdf8;
+      --green: #16a34a; --red: #dc2626; --amber: #f59e0b;
+      --gray-50: #f8fafc; --gray-100: #f1f5f9; --gray-200: #e2e8f0;
+      --gray-400: #94a3b8; --gray-500: #64748b; --gray-600: #475569; --gray-900: #1e293b;
+      --radius: 14px; --shadow: 0 4px 20px rgba(0,0,0,.08); --shadow-hover: 0 8px 32px rgba(0,0,0,.14);
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body { font-family: 'Inter', system-ui, sans-serif; background: var(--gray-50); color: var(--gray-900); line-height: 1.6; }
-    nav { background: var(--navy); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 62px; position: sticky; top: 0; z-index: 200; box-shadow: 0 1px 0 rgba(255,255,255,.06); }
+
+    /* NAV */
+    nav { background: var(--navy); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 62px; position: sticky; top: 0; z-index: 200; }
     .nav-logo { color: #fff; font-size: 1.15rem; font-weight: 800; text-decoration: none; }
     .nav-logo span { color: var(--blue-light); }
-    .nav-links { display: flex; gap: 1.8rem; list-style: none; }
-    .nav-links a { color: var(--gray-400); text-decoration: none; font-size: .88rem; font-weight: 500; transition: color .2s; }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a { color: var(--gray-400); text-decoration: none; font-size: .85rem; font-weight: 500; transition: color .2s; }
     .nav-links a:hover { color: #fff; }
-    .nav-cta { background: var(--blue); color: #fff !important; padding: .35rem .9rem; border-radius: 8px; font-weight: 600 !important; }
-    .nav-cta:hover { background: #0284c7 !important; }
+    .nav-cta { background: var(--blue); color: #fff !important; padding: .3rem .85rem; border-radius: 8px; font-weight: 600 !important; }
+
+    /* HERO */
     .hero { background: linear-gradient(135deg, #0a1628 0%, #0f2d50 50%, #1a1035 100%); color: #fff; text-align: center; padding: 5rem 1rem 4rem; position: relative; overflow: hidden; }
     .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 60% 0%, rgba(14,165,233,.18) 0%, transparent 65%); pointer-events: none; }
     .hero-badge { display: inline-block; background: rgba(56,189,248,.15); border: 1px solid rgba(56,189,248,.3); color: var(--blue-light); font-size: .78rem; font-weight: 600; padding: .3rem .9rem; border-radius: 999px; margin-bottom: 1.2rem; }
     .hero h1 { font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 800; margin-bottom: 1rem; letter-spacing: -.5px; line-height: 1.2; }
     .hero h1 span { color: var(--blue-light); }
-    .hero p { color: var(--gray-400); font-size: 1.1rem; max-width: 560px; margin: 0 auto 2.2rem; }
+    .hero p { color: var(--gray-400); font-size: 1.05rem; max-width: 580px; margin: 0 auto 2rem; }
     .search-bar { display: flex; max-width: 520px; margin: 0 auto 1rem; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,.25); }
     .search-bar input { flex: 1; border: none; padding: .95rem 1.3rem; font-size: 1rem; outline: none; color: var(--gray-900); font-family: inherit; }
     .search-bar button { background: var(--blue); color: #fff; border: none; padding: .95rem 1.5rem; cursor: pointer; font-size: 1rem; font-weight: 600; font-family: inherit; transition: background .2s; }
     .search-bar button:hover { background: #0284c7; }
     .hero-hint { color: var(--gray-500); font-size: .82rem; margin-bottom: 2.5rem; }
     .hero-hint span { color: var(--blue-light); cursor: pointer; text-decoration: underline; margin: 0 .3rem; }
-    .stats { display: flex; justify-content: center; gap: 4rem; margin-top: .5rem; }
+    .stats { display: flex; justify-content: center; gap: 3.5rem; margin-top: .5rem; }
     .stat-num { font-size: 2.2rem; font-weight: 800; color: var(--blue-light); }
-    .stat-label { font-size: .78rem; color: var(--gray-500); margin-top: .2rem; }
-    .scenario-section { background: #fff; border-bottom: 1px solid var(--gray-200); padding: 1.8rem 1rem; }
+    .stat-label { font-size: .75rem; color: var(--gray-500); margin-top: .2rem; }
+
+    /* MARKET STATS */
+    .market-bar { background: rgba(255,255,255,.05); border-top: 1px solid rgba(255,255,255,.08); padding: 1.2rem 2rem; display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; align-items: center; }
+    .market-item { color: var(--gray-400); font-size: .8rem; }
+    .market-item strong { color: var(--blue-light); }
+
+    /* SCENARIO */
+    .scenario-section { background: #fff; border-bottom: 1px solid var(--gray-200); padding: 1.6rem 1rem; }
     .scenario-inner { max-width: 1100px; margin: 0 auto; }
-    .scenario-label { font-size: .8rem; color: var(--gray-500); font-weight: 600; margin-bottom: .8rem; text-transform: uppercase; letter-spacing: .5px; }
+    .scenario-label { font-size: .78rem; color: var(--gray-500); font-weight: 600; margin-bottom: .8rem; text-transform: uppercase; letter-spacing: .5px; }
     .scenario-btns { display: flex; flex-wrap: wrap; gap: .5rem; }
-    .scenario-btn { padding: .45rem 1rem; border-radius: 999px; border: 1.5px solid var(--gray-200); background: var(--gray-50); cursor: pointer; font-size: .84rem; color: var(--gray-600); transition: all .2s; font-family: inherit; font-weight: 500; }
+    .scenario-btn { padding: .42rem 1rem; border-radius: 999px; border: 1.5px solid var(--gray-200); background: var(--gray-50); cursor: pointer; font-size: .83rem; color: var(--gray-600); transition: all .2s; font-family: inherit; font-weight: 500; }
     .scenario-btn:hover, .scenario-btn.active { background: var(--navy); color: #fff; border-color: var(--navy); }
-    .filters { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; padding: 1.5rem 1rem 1rem; background: var(--gray-50); border-bottom: 1px solid var(--gray-200); }
-    .filter-btn { padding: .45rem 1.1rem; border-radius: 999px; border: 1.5px solid var(--gray-200); background: #fff; cursor: pointer; font-size: .84rem; color: var(--gray-600); transition: all .2s; font-family: inherit; font-weight: 500; }
+
+    /* FILTERS */
+    .filters { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; padding: 1.4rem 1rem 1rem; background: var(--gray-50); border-bottom: 1px solid var(--gray-200); }
+    .filter-btn { padding: .42rem 1.1rem; border-radius: 999px; border: 1.5px solid var(--gray-200); background: #fff; cursor: pointer; font-size: .83rem; color: var(--gray-600); transition: all .2s; font-family: inherit; font-weight: 500; }
     .filter-btn.active, .filter-btn:hover { background: var(--blue); color: #fff; border-color: var(--blue); }
+
+    /* TOOLS */
     .section { max-width: 1100px; margin: 0 auto; padding: 2.5rem 1rem; }
     .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem; flex-wrap: wrap; gap: .5rem; }
-    .section-title { font-size: 1.4rem; font-weight: 700; color: var(--navy); }
-    .section-sub { font-size: .88rem; color: var(--gray-500); font-weight: 400; margin-left: .5rem; }
-    .sort-select { padding: .4rem .8rem; border: 1.5px solid var(--gray-200); border-radius: 8px; font-size: .84rem; color: var(--gray-600); background: #fff; cursor: pointer; font-family: inherit; }
-    .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.2rem; }
+    .section-title { font-size: 1.35rem; font-weight: 700; color: var(--navy); }
+    .section-sub { font-size: .86rem; color: var(--gray-500); font-weight: 400; margin-left: .4rem; }
+    .sort-select { padding: .38rem .8rem; border: 1.5px solid var(--gray-200); border-radius: 8px; font-size: .83rem; color: var(--gray-600); background: #fff; cursor: pointer; font-family: inherit; }
+    .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 1.2rem; }
     .tool-card { background: #fff; border-radius: var(--radius); padding: 1.5rem; border: 1px solid var(--gray-200); transition: transform .2s, box-shadow .2s, border-color .2s; position: relative; }
     .tool-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); border-color: var(--blue-light); }
     .tool-card.featured { border-color: var(--blue); }
+    .tool-card.tw-local { border-color: #16a34a33; }
     .featured-badge { position: absolute; top: -1px; right: 1rem; background: var(--blue); color: #fff; font-size: .68rem; font-weight: 700; padding: .2rem .6rem; border-radius: 0 0 6px 6px; }
+    .tw-badge-top { position: absolute; top: -1px; right: 1rem; background: var(--green); color: #fff; font-size: .68rem; font-weight: 700; padding: .2rem .6rem; border-radius: 0 0 6px 6px; }
     .tool-header { display: flex; align-items: center; gap: .9rem; margin-bottom: .9rem; }
     .tool-icon { width: 46px; height: 46px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0; }
     .tool-name { font-weight: 700; font-size: 1.05rem; }
@@ -84,26 +89,36 @@
     .tool-tag { font-size: .72rem; color: var(--gray-500); background: var(--gray-100); padding: .15rem .55rem; border-radius: 999px; font-weight: 500; }
     .badge-free { background: #dcfce7; color: var(--green); font-size: .72rem; padding: .15rem .55rem; border-radius: 999px; font-weight: 600; }
     .badge-new { background: #ede9fe; color: #6d28d9; font-size: .72rem; padding: .15rem .55rem; border-radius: 999px; font-weight: 600; }
-    .tool-desc { font-size: .88rem; color: var(--gray-600); line-height: 1.6; margin-bottom: .6rem; }
-    .tool-pros { font-size: .82rem; color: #15803d; margin-bottom: .3rem; }
-    .tool-cons { font-size: .82rem; color: #b91c1c; margin-bottom: 1rem; }
+    .badge-tw { background: #fef3c7; color: #92400e; font-size: .72rem; padding: .15rem .55rem; border-radius: 999px; font-weight: 600; }
+    .tool-desc { font-size: .87rem; color: var(--gray-600); line-height: 1.6; margin-bottom: .6rem; }
+    .tool-pros { font-size: .81rem; color: #15803d; margin-bottom: .3rem; }
+    .tool-cons { font-size: .81rem; color: #b91c1c; margin-bottom: .8rem; }
+    .tool-prompt { background: var(--gray-50); border-left: 3px solid var(--blue); border-radius: 0 8px 8px 0; padding: .6rem .8rem; margin-bottom: 1rem; }
+    .tool-prompt-label { font-size: .7rem; color: var(--blue); font-weight: 700; margin-bottom: .3rem; text-transform: uppercase; letter-spacing: .3px; }
+    .tool-prompt-text { font-size: .8rem; color: var(--gray-600); font-family: monospace; line-height: 1.5; cursor: pointer; }
+    .tool-prompt-text:hover { color: var(--blue); }
+    .copy-hint { font-size: .68rem; color: var(--gray-400); margin-top: .2rem; }
     .tool-footer { display: flex; align-items: center; justify-content: space-between; }
     .tool-price { font-size: .82rem; color: var(--blue); font-weight: 700; }
     .tool-rating { font-size: .82rem; color: var(--amber); }
     .tool-link { font-size: .82rem; background: var(--navy); color: #fff; padding: .38rem 1rem; border-radius: 8px; text-decoration: none; transition: background .2s; font-weight: 600; }
     .tool-link:hover { background: var(--blue); }
     .no-results { color: var(--gray-400); padding: 3rem; text-align: center; grid-column: 1/-1; }
+
+    /* SCENARIO RESULT */
     .scenario-result { background: linear-gradient(135deg, #0f172a, #1e3a5f); color: #fff; border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1.5rem; display: none; }
     .scenario-result.show { display: block; }
     .scenario-result h3 { font-size: 1rem; margin-bottom: .8rem; color: var(--blue-light); }
     .rec-tools { display: flex; flex-wrap: wrap; gap: .5rem; }
     .rec-tool { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.15); color: #fff; padding: .35rem .8rem; border-radius: 8px; font-size: .84rem; font-weight: 600; cursor: pointer; transition: background .2s; }
     .rec-tool:hover { background: var(--blue); }
+
+    /* COMPARE */
     .compare-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--gray-200); }
-    table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+    table { width: 100%; border-collapse: collapse; font-size: .86rem; }
     thead tr { background: var(--navy); color: #fff; }
-    th { padding: .9rem 1rem; text-align: left; font-weight: 600; white-space: nowrap; }
-    td { padding: .85rem 1rem; border-bottom: 1px solid var(--gray-200); }
+    th { padding: .85rem 1rem; text-align: left; font-weight: 600; white-space: nowrap; }
+    td { padding: .8rem 1rem; border-bottom: 1px solid var(--gray-200); }
     td a { color: var(--gray-900); text-decoration: none; font-weight: 600; }
     td a:hover { color: var(--blue); }
     tr:last-child td { border-bottom: none; }
@@ -113,38 +128,52 @@
     .star { color: var(--amber); }
     .zh-yes { color: var(--green); font-weight: 700; }
     .zh-partial { color: var(--amber); font-weight: 700; }
+
+    /* NEEDS */
     .needs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
     .need-card { background: #fff; border-radius: 12px; padding: 1.3rem; border: 1px solid var(--gray-200); transition: box-shadow .2s; }
     .need-card:hover { box-shadow: var(--shadow); }
     .need-card h4 { font-size: .95rem; margin-bottom: .5rem; font-weight: 700; }
-    .need-card p { font-size: .84rem; color: var(--gray-500); line-height: 1.55; }
+    .need-card p { font-size: .83rem; color: var(--gray-500); line-height: 1.55; }
+
+    /* BUNDLE */
     .bundle-section { background: linear-gradient(135deg, #0f172a, #1e3a5f); color: #fff; padding: 3rem 1rem; }
     .bundle-inner { max-width: 1100px; margin: 0 auto; }
-    .bundle-title { font-size: 1.4rem; font-weight: 700; margin-bottom: .5rem; }
-    .bundle-sub { color: var(--gray-400); font-size: .9rem; margin-bottom: 2rem; }
+    .bundle-title { font-size: 1.35rem; font-weight: 700; margin-bottom: .4rem; }
+    .bundle-sub { color: var(--gray-400); font-size: .88rem; margin-bottom: 2rem; }
     .bundles { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
     .bundle-card { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.12); border-radius: var(--radius); padding: 1.4rem; }
     .bundle-card h4 { font-size: 1rem; font-weight: 700; margin-bottom: .3rem; color: var(--blue-light); }
-    .bundle-card .budget { font-size: .82rem; color: var(--gray-400); margin-bottom: .8rem; }
+    .bundle-card .budget { font-size: .8rem; color: var(--gray-400); margin-bottom: .8rem; }
     .bundle-tools { display: flex; flex-direction: column; gap: .4rem; }
-    .bundle-tool { font-size: .84rem; color: #e2e8f0; }
-    .bundle-tool span { color: var(--gray-400); font-size: .78rem; }
-    footer { background: var(--navy); color: var(--gray-500); text-align: center; padding: 2.5rem 1rem; font-size: .84rem; }
+    .bundle-tool { font-size: .83rem; color: #e2e8f0; }
+    .bundle-tool span { color: var(--gray-400); font-size: .77rem; }
+
+    /* FOOTER */
+    footer { background: var(--navy); color: var(--gray-500); text-align: center; padding: 2.5rem 1rem; font-size: .83rem; }
     footer a { color: var(--gray-400); text-decoration: none; margin: 0 .5rem; transition: color .2s; }
     footer a:hover { color: #fff; }
     .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.07); margin: 1.2rem 0; }
+
+    /* TOAST */
+    .toast { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%) translateY(100px); background: var(--navy); color: #fff; padding: .7rem 1.5rem; border-radius: 999px; font-size: .85rem; font-weight: 600; transition: transform .3s; z-index: 999; border: 1px solid rgba(255,255,255,.1); }
+    .toast.show { transform: translateX(-50%) translateY(0); }
+
     @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
     .tool-card { animation: fadeUp .35s ease both; }
+
     @media (max-width: 640px) {
-      .stats { gap: 2rem; }
-      .nav-links { display: none; }
-      .hero { padding: 3.5rem 1rem 2.5rem; }
-      .bundles { grid-template-columns: 1fr; }
+      .stats { gap: 2rem; } .nav-links { display: none; }
+      .hero { padding: 3.5rem 1rem 2.5rem; } .bundles { grid-template-columns: 1fr; }
+      .market-bar { gap: .8rem; }
     }
   </style>
 </head>
 <body>
 
+<div class="toast" id="toast">✅ Prompt 已複製！</div>
+
+<!-- NAV -->
 <nav>
   <a class="nav-logo" href="/"><span>⚡</span> AI工具導航</a>
   <ul class="nav-links">
@@ -156,12 +185,13 @@
   </ul>
 </nav>
 
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-badge">🔥 2026 最新更新 · 持續收錄中</div>
+  <div class="hero-badge">🔥 2026 最新更新 · 收錄 25+ 工具 · 含 Prompt 範例</div>
   <h1>找到最適合你的<br/><span>AI 工具</span></h1>
-  <p>不用再迷茫 — 依你的使用場景、預算、需求，快速找到對的 AI 工具。收錄 20+ 熱門工具，繁體中文友善。</p>
+  <p>依使用場景、預算、需求精準推薦。每款工具附優缺點分析與可直接使用的 Prompt 範例，繁體中文友善。</p>
   <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="搜尋工具名稱、功能、或使用場景..." autocomplete="off" />
+    <input type="text" id="searchInput" placeholder="搜尋工具名稱、功能、使用場景..." autocomplete="off" />
     <button onclick="doSearch()">🔍 搜尋</button>
   </div>
   <div class="hero-hint">
@@ -170,31 +200,42 @@
     <span onclick="quickSearch('程式')">AI 程式</span>
     <span onclick="quickSearch('繪圖')">AI 繪圖</span>
     <span onclick="quickSearch('免費')">免費工具</span>
+    <span onclick="quickSearch('台灣')">台灣工具</span>
   </div>
   <div class="stats">
-    <div><div class="stat-num">20+</div><div class="stat-label">收錄工具</div></div>
-    <div><div class="stat-num">6</div><div class="stat-label">使用分類</div></div>
+    <div><div class="stat-num">25+</div><div class="stat-label">收錄工具</div></div>
+    <div><div class="stat-num">7</div><div class="stat-label">使用分類</div></div>
     <div><div class="stat-num">2026</div><div class="stat-label">持續更新</div></div>
+  </div>
+  <div class="market-bar">
+    <div class="market-item">📊 ChatGPT 全球市佔 <strong>64.5%</strong></div>
+    <div class="market-item">📈 Gemini 穩坐第二 <strong>20%+</strong></div>
+    <div class="market-item">🤖 Claude 專業寫作首選 <strong>2%</strong></div>
+    <div class="market-item">🔍 Perplexity 研究查資料 <strong>2%</strong></div>
+    <div class="market-item">💡 來源：2026 全球 AI 市佔追蹤報告</div>
   </div>
 </section>
 
+<!-- SCENARIO -->
 <div class="scenario-section">
   <div class="scenario-inner">
     <div class="scenario-label">📌 依使用場景快速推薦</div>
     <div class="scenario-btns">
-      <button class="scenario-btn" onclick="showScenario('論文', this, ['Perplexity', 'Claude', 'Grammarly'])">📝 我要寫論文</button>
-      <button class="scenario-btn" onclick="showScenario('簡報', this, ['Canva AI', 'ChatGPT'])">📊 我要做簡報</button>
-      <button class="scenario-btn" onclick="showScenario('程式', this, ['Cursor', 'GitHub Copilot', 'Claude Code'])">💻 我要寫程式</button>
-      <button class="scenario-btn" onclick="showScenario('圖片', this, ['Midjourney', 'Adobe Firefly', 'Canva AI'])">🎨 我要生成圖片</button>
-      <button class="scenario-btn" onclick="showScenario('影片', this, ['Runway', 'Sora', 'Kling AI'])">🎬 我要做影片</button>
+      <button class="scenario-btn" onclick="showScenario('論文研究', this, ['Perplexity', 'Claude', 'NotebookLM', 'Grammarly'])">📝 我要寫論文</button>
+      <button class="scenario-btn" onclick="showScenario('簡報', this, ['Gamma', 'Canva AI', 'ChatGPT'])">📊 我要做簡報</button>
+      <button class="scenario-btn" onclick="showScenario('程式開發', this, ['Cursor', 'GitHub Copilot', 'Claude Code'])">💻 我要寫程式</button>
+      <button class="scenario-btn" onclick="showScenario('圖片生成', this, ['Midjourney', 'Adobe Firefly', 'Canva AI', 'MyEdit'])">🎨 我要生成圖片</button>
+      <button class="scenario-btn" onclick="showScenario('影片製作', this, ['Runway', 'Kling AI', 'Sora'])">🎬 我要做影片</button>
       <button class="scenario-btn" onclick="showScenario('行銷文案', this, ['Jasper', 'ChatGPT', 'Claude'])">✍️ 我要寫行銷文案</button>
-      <button class="scenario-btn" onclick="showScenario('自動化', this, ['Make', 'Zapier', 'n8n'])">⚙️ 我要自動化流程</button>
-      <button class="scenario-btn" onclick="showScenario('查資料', this, ['Perplexity', 'ChatGPT', 'Gemini'])">🔭 我要查資料研究</button>
-      <button class="scenario-btn" onclick="showScenario('配音', this, ['ElevenLabs'])">🎙️ 我要做配音</button>
+      <button class="scenario-btn" onclick="showScenario('自動化流程', this, ['Make', 'Zapier', 'n8n'])">⚙️ 我要自動化流程</button>
+      <button class="scenario-btn" onclick="showScenario('查資料研究', this, ['Perplexity', 'NotebookLM', 'Gemini'])">🔭 我要查資料</button>
+      <button class="scenario-btn" onclick="showScenario('配音Podcast', this, ['ElevenLabs'])">🎙️ 我要做配音</button>
+      <button class="scenario-btn" onclick="showScenario('台灣在地工具', this, ['MyEdit', 'Microsoft Copilot', 'NotebookLM'])">🇹🇼 台灣適用工具</button>
     </div>
   </div>
 </div>
 
+<!-- FILTERS -->
 <div class="filters">
   <button class="filter-btn active" onclick="setFilter('全部', this)">🔥 全部</button>
   <button class="filter-btn" onclick="setFilter('對話/研究', this)">💬 對話/研究</button>
@@ -203,8 +244,10 @@
   <button class="filter-btn" onclick="setFilter('影片生成', this)">🎬 影片生成</button>
   <button class="filter-btn" onclick="setFilter('寫作', this)">✍️ 寫作</button>
   <button class="filter-btn" onclick="setFilter('自動化', this)">⚙️ 自動化</button>
+  <button class="filter-btn" onclick="setFilter('簡報/學習', this)">📊 簡報/學習</button>
 </div>
 
+<!-- TOOLS -->
 <div class="section" id="tools">
   <div class="section-header">
     <div class="section-title">推薦 AI 工具 <span class="section-sub" id="toolCount"></span></div>
@@ -221,37 +264,37 @@
   <div class="tools-grid" id="toolsGrid"></div>
 </div>
 
-<div style="background:#fff; padding: 2.5rem 0;" id="compare">
+<!-- COMPARE -->
+<div style="background:#fff;padding:2.5rem 0;" id="compare">
   <div class="section" style="padding-top:0;padding-bottom:0;">
     <div class="section-title" style="margin-bottom:1.2rem;">熱門 AI 工具完整比較</div>
     <div class="compare-wrap">
       <table>
-        <thead>
-          <tr><th>工具</th><th>類別</th><th>評分</th><th>免費版</th><th>付費(月)</th><th>繁中支援</th><th>適合對象</th></tr>
-        </thead>
+        <thead><tr><th>工具</th><th>類別</th><th>評分</th><th>免費版</th><th>付費(月)</th><th>繁中支援</th><th>台灣適用</th><th>適合對象</th></tr></thead>
         <tbody>
-          <tr><td><a href="https://chat.openai.com" target="_blank">ChatGPT ↗</a></td><td>對話/研究</td><td class="star">★★★★★ 4.8</td><td class="free-yes">✔ 有</td><td>$20</td><td class="zh-yes">✔ 佳</td><td>所有人</td></tr>
-          <tr><td><a href="https://claude.ai" target="_blank">Claude ↗</a></td><td>對話/研究</td><td class="star">★★★★★ 4.8</td><td class="free-yes">✔ 有</td><td>$20</td><td class="zh-yes">✔ 佳</td><td>寫作、長文分析</td></tr>
-          <tr><td><a href="https://gemini.google.com" target="_blank">Gemini ↗</a></td><td>對話/研究</td><td class="star">★★★★☆ 4.5</td><td class="free-yes">✔ 有</td><td>$20</td><td class="zh-yes">✔ 佳</td><td>Google 用戶</td></tr>
-          <tr><td><a href="https://www.perplexity.ai" target="_blank">Perplexity ↗</a></td><td>對話/研究</td><td class="star">★★★★☆ 4.6</td><td class="free-yes">✔ 有</td><td>$20</td><td class="zh-partial">△ 可</td><td>研究查資料</td></tr>
-          <tr><td><a href="https://www.cursor.com" target="_blank">Cursor ↗</a></td><td>程式開發</td><td class="star">★★★★★ 4.9</td><td class="free-yes">✔ 有</td><td>$20</td><td class="zh-yes">✔ 佳</td><td>開發者</td></tr>
-          <tr><td><a href="https://github.com/features/copilot" target="_blank">GitHub Copilot ↗</a></td><td>程式開發</td><td class="star">★★★★☆ 4.6</td><td class="free-yes">✔ 有</td><td>$10</td><td class="zh-partial">△ 可</td><td>開發者</td></tr>
-          <tr><td><a href="https://www.midjourney.com" target="_blank">Midjourney ↗</a></td><td>設計創作</td><td class="star">★★★★★ 4.7</td><td class="free-no">✘ 無</td><td>$10</td><td class="zh-partial">△ 可</td><td>設計師、創作者</td></tr>
-          <tr><td><a href="https://www.canva.com" target="_blank">Canva AI ↗</a></td><td>設計創作</td><td class="star">★★★★☆ 4.5</td><td class="free-yes">✔ 有</td><td>$15</td><td class="zh-yes">✔ 佳</td><td>行銷、非設計師</td></tr>
-          <tr><td><a href="https://firefly.adobe.com" target="_blank">Adobe Firefly ↗</a></td><td>設計創作</td><td class="star">★★★★☆ 4.3</td><td class="free-yes">✔ 有</td><td>$5</td><td class="zh-partial">△ 可</td><td>專業設計師</td></tr>
-          <tr><td><a href="https://runwayml.com" target="_blank">Runway ↗</a></td><td>影片生成</td><td class="star">★★★★☆ 4.5</td><td class="free-yes">✔ 有</td><td>$15</td><td class="zh-partial">△ 可</td><td>影片創作者</td></tr>
-          <tr><td><a href="https://klingai.com" target="_blank">Kling AI ↗</a></td><td>影片生成</td><td class="star">★★★★☆ 4.4</td><td class="free-yes">✔ 有</td><td>訂閱制</td><td class="zh-yes">✔ 佳</td><td>中文影片創作</td></tr>
-          <tr><td><a href="https://www.notion.so" target="_blank">Notion AI ↗</a></td><td>寫作</td><td class="star">★★★★☆ 4.3</td><td class="free-no">✘ 無</td><td>$10</td><td class="zh-yes">✔ 佳</td><td>Notion 用戶</td></tr>
-          <tr><td><a href="https://elevenlabs.io" target="_blank">ElevenLabs ↗</a></td><td>寫作</td><td class="star">★★★★★ 4.7</td><td class="free-yes">✔ 有</td><td>$5</td><td class="zh-partial">△ 可</td><td>配音、Podcast</td></tr>
-          <tr><td><a href="https://www.make.com" target="_blank">Make ↗</a></td><td>自動化</td><td class="star">★★★★☆ 4.5</td><td class="free-yes">✔ 有</td><td>$9</td><td class="zh-partial">△ 可</td><td>自動化需求者</td></tr>
-          <tr><td><a href="https://zapier.com" target="_blank">Zapier ↗</a></td><td>自動化</td><td class="star">★★★★☆ 4.4</td><td class="free-yes">✔ 有</td><td>$20</td><td class="zh-partial">△ 可</td><td>非技術用戶</td></tr>
+          <tr><td><a href="https://chat.openai.com" target="_blank">ChatGPT ↗</a></td><td>對話/研究</td><td class="star">★★★★★ 4.8</td><td class="free-yes">✔</td><td>$20</td><td class="zh-yes">✔ 佳</td><td class="free-yes">✔</td><td>所有人</td></tr>
+          <tr><td><a href="https://claude.ai" target="_blank">Claude ↗</a></td><td>對話/研究</td><td class="star">★★★★★ 4.8</td><td class="free-yes">✔</td><td>$20</td><td class="zh-yes">✔ 佳</td><td class="free-yes">✔</td><td>寫作、長文分析</td></tr>
+          <tr><td><a href="https://gemini.google.com" target="_blank">Gemini ↗</a></td><td>對話/研究</td><td class="star">★★★★☆ 4.5</td><td class="free-yes">✔</td><td>$20</td><td class="zh-yes">✔ 佳</td><td class="free-yes">✔</td><td>Google 用戶</td></tr>
+          <tr><td><a href="https://www.perplexity.ai" target="_blank">Perplexity ↗</a></td><td>對話/研究</td><td class="star">★★★★☆ 4.6</td><td class="free-yes">✔</td><td>$20</td><td class="zh-partial">△ 可</td><td class="free-yes">✔</td><td>研究查資料</td></tr>
+          <tr><td><a href="https://notebooklm.google.com" target="_blank">NotebookLM ↗</a></td><td>簡報/學習</td><td class="star">★★★★★ 4.8</td><td class="free-yes">✔</td><td>免費</td><td class="zh-yes">✔ 佳</td><td class="free-yes">✔</td><td>學生、研究者</td></tr>
+          <tr><td><a href="https://gamma.app" target="_blank">Gamma ↗</a></td><td>簡報/學習</td><td class="star">★★★★☆ 4.5</td><td class="free-yes">✔</td><td>$8</td><td class="zh-yes">✔ 佳</td><td class="free-yes">✔</td><td>簡報、提案</td></tr>
+          <tr><td><a href="https://www.cursor.com" target="_blank">Cursor ↗</a></td><td>程式開發</td><td class="star">★★★★★ 4.9</td><td class="free-yes">✔</td><td>$20</td><td class="zh-yes">✔ 佳</td><td class="free-yes">✔</td><td>開發者</td></tr>
+          <tr><td><a href="https://github.com/features/copilot" target="_blank">GitHub Copilot ↗</a></td><td>程式開發</td><td class="star">★★★★☆ 4.6</td><td class="free-yes">✔</td><td>$10</td><td class="zh-partial">△ 可</td><td class="free-yes">✔</td><td>開發者</td></tr>
+          <tr><td><a href="https://www.midjourney.com" target="_blank">Midjourney ↗</a></td><td>設計創作</td><td class="star">★★★★★ 4.7</td><td class="free-no">✘</td><td>$10</td><td class="zh-partial">△ 可</td><td class="free-yes">✔</td><td>設計師、創作者</td></tr>
+          <tr><td><a href="https://www.canva.com" target="_blank">Canva AI ↗</a></td><td>設計創作</td><td class="star">★★★★☆ 4.5</td><td class="free-yes">✔</td><td>$15</td><td class="zh-yes">✔ 佳</td><td class="free-yes">✔</td><td>行銷、非設計師</td></tr>
+          <tr><td><a href="https://myedit.online/tw" target="_blank">MyEdit ↗</a></td><td>設計創作</td><td class="star">★★★★☆ 4.4</td><td class="free-yes">✔</td><td>訂閱制</td><td class="zh-yes">✔ 佳</td><td class="free-yes">✔ 台灣</td><td>繁中用戶、初學者</td></tr>
+          <tr><td><a href="https://runwayml.com" target="_blank">Runway ↗</a></td><td>影片生成</td><td class="star">★★★★☆ 4.5</td><td class="free-yes">✔</td><td>$15</td><td class="zh-partial">△ 可</td><td class="free-yes">✔</td><td>影片創作者</td></tr>
+          <tr><td><a href="https://klingai.com" target="_blank">Kling AI ↗</a></td><td>影片生成</td><td class="star">★★★★☆ 4.4</td><td class="free-yes">✔</td><td>訂閱制</td><td class="zh-yes">✔ 佳</td><td class="free-yes">✔</td><td>中文影片創作</td></tr>
+          <tr><td><a href="https://elevenlabs.io" target="_blank">ElevenLabs ↗</a></td><td>寫作</td><td class="star">★★★★★ 4.7</td><td class="free-yes">✔</td><td>$5</td><td class="zh-partial">△ 可</td><td class="free-yes">✔</td><td>配音、Podcast</td></tr>
+          <tr><td><a href="https://www.make.com" target="_blank">Make ↗</a></td><td>自動化</td><td class="star">★★★★☆ 4.5</td><td class="free-yes">✔</td><td>$9</td><td class="zh-partial">△ 可</td><td class="free-yes">✔</td><td>自動化需求者</td></tr>
         </tbody>
       </table>
     </div>
-    <p style="font-size:.78rem;color:var(--gray-500);margin-top:.8rem;">繁中：✔ 佳 = 介面與輸出均支援繁體中文；△ 可 = 部分支援或需手動指定語言</p>
+    <p style="font-size:.76rem;color:var(--gray-500);margin-top:.8rem;">繁中：✔ 佳 = 介面與輸出均支援繁體中文；△ 可 = 部分支援或需手動指定語言</p>
   </div>
 </div>
 
+<!-- BUNDLE -->
 <div class="bundle-section" id="bundle">
   <div class="bundle-inner">
     <div class="bundle-title">🧩 推薦工具組合</div>
@@ -263,22 +306,22 @@
         <div class="bundle-tools">
           <div class="bundle-tool">💬 ChatGPT 免費版 <span>— 日常對話、寫作</span></div>
           <div class="bundle-tool">🔭 Perplexity 免費版 <span>— 查資料、研究</span></div>
+          <div class="bundle-tool">📚 NotebookLM 免費 <span>— PDF 學習筆記</span></div>
           <div class="bundle-tool">🖌️ Canva AI 免費版 <span>— 設計素材</span></div>
-          <div class="bundle-tool">⚙️ Make 免費版 <span>— 基礎自動化</span></div>
         </div>
       </div>
       <div class="bundle-card">
         <h4>💼 工作效率組合</h4>
-        <div class="budget">每月約 $40 · 適合上班族、自由工作者</div>
+        <div class="budget">每月約 $40 · 適合上班族</div>
         <div class="bundle-tools">
           <div class="bundle-tool">🤖 Claude Pro $20 <span>— 長文寫作、分析</span></div>
-          <div class="bundle-tool">🖌️ Canva Pro $15 <span>— 行銷設計</span></div>
+          <div class="bundle-tool">📊 Gamma $8 <span>— AI 簡報生成</span></div>
           <div class="bundle-tool">⚙️ Make 基本版 $9 <span>— 工作流程自動化</span></div>
         </div>
       </div>
       <div class="bundle-card">
         <h4>💻 開發者組合</h4>
-        <div class="budget">每月約 $40 · 適合軟體開發者</div>
+        <div class="budget">每月約 $40 · 適合開發者</div>
         <div class="bundle-tools">
           <div class="bundle-tool">💻 Cursor Pro $20 <span>— AI 程式編輯器</span></div>
           <div class="bundle-tool">🤖 Claude Pro $20 <span>— 架構討論、Debug</span></div>
@@ -299,24 +342,26 @@
   </div>
 </div>
 
+<!-- NEEDS -->
 <div class="section" id="needs">
   <div class="section-title" style="margin-bottom:1.2rem;">使用者在 AI 工具網站上的真實需求</div>
   <div class="needs-grid">
     <div class="need-card"><h4>🔍 快速比較與篩選</h4><p>用戶不想一個一個點開看，需要按分類、價格、評分直接篩選出候選清單，節省選擇時間。</p></div>
     <div class="need-card"><h4>🎯 場景導向推薦</h4><p>「我要做簡報」、「我要寫論文」— 用戶想要直接對應使用情境的推薦，而非泛泛的工具清單。</p></div>
-    <div class="need-card"><h4>💰 價格完全透明</h4><p>免費版夠用嗎？付費版多了什麼？有沒有隱藏費用？用戶需要清楚的費用結構，不想被「月費只是起點」坑到。</p></div>
-    <div class="need-card"><h4>🛡️ 信任與資料安全</h4><p>這工具安全嗎？資料會被拿來訓練嗎？商用有沒有版權問題？2026 年用戶對隱私的要求比以往更高。</p></div>
-    <div class="need-card"><h4>📚 上手教學與 Prompt</h4><p>拿到工具後怎麼用？用戶需要具體的 Prompt 範例、快速入門指南，而不只是功能介紹。</p></div>
-    <div class="need-card"><h4>🔗 整合與 API 資訊</h4><p>這工具能接 Slack、Notion、GitHub 嗎？API 好不好串？多工具組合已是 2026 年主流工作模式。</p></div>
-    <div class="need-card"><h4>🌐 繁體中文支援</h4><p>工具介面是中文嗎？輸出內容會跑出簡體字嗎？台灣用戶最在意的實際使用體驗，往往被忽略。</p></div>
-    <div class="need-card"><h4>⚡ AI Agent 自動化能力</h4><p>2026 年用戶不只要「助手」，更要能自主完成多步驟任務的 Agent。光是對話已不夠，要能真正幫你做事。</p></div>
-    <div class="need-card"><h4>🧩 最少訂閱覆蓋最多需求</h4><p>用戶不想同時訂閱五個工具，想知道哪個組合能用最低預算 cover 最多使用場景，性價比才是關鍵。</p></div>
+    <div class="need-card"><h4>💰 價格完全透明</h4><p>免費版夠用嗎？付費版多了什麼？有沒有隱藏費用？用戶需要清楚的費用結構，不想被坑。</p></div>
+    <div class="need-card"><h4>🛡️ 信任與資料安全</h4><p>這工具安全嗎？資料會被拿來訓練嗎？商用有沒有版權問題？2026 年用戶對隱私的要求更高。</p></div>
+    <div class="need-card"><h4>📚 上手 Prompt 範例</h4><p>拿到工具後怎麼用？用戶需要具體的 Prompt 範例、可直接複製使用，而不只是功能介紹。</p></div>
+    <div class="need-card"><h4>🔗 整合與 API 資訊</h4><p>這工具能接 Slack、Notion、GitHub 嗎？API 好不好串？多工具組合已是 2026 年主流模式。</p></div>
+    <div class="need-card"><h4>🌐 繁體中文支援</h4><p>工具介面是中文嗎？輸出內容會跑出簡體字嗎？台灣用戶最在意的實際使用體驗。</p></div>
+    <div class="need-card"><h4>⚡ AI Agent 自動化能力</h4><p>2026 年用戶不只要「助手」，更要能自主完成多步驟任務的 Agent，真正幫你做事。</p></div>
+    <div class="need-card"><h4>🧩 最少訂閱覆蓋最多需求</h4><p>用戶不想同時訂閱五個工具，想知道哪個組合能用最低預算 cover 最多使用場景。</p></div>
   </div>
 </div>
 
+<!-- FOOTER -->
 <footer id="about">
   <p style="margin-bottom:.8rem;font-size:1rem;font-weight:700;color:#fff;">⚡ AI工具導航</p>
-  <p style="margin-bottom:1rem;">收錄 20+ 熱門 AI 工具，依場景、預算精準推薦，繁體中文友善，持續更新。</p>
+  <p style="margin-bottom:1rem;">收錄 25+ 熱門 AI 工具，依場景、預算精準推薦，每款附 Prompt 範例，繁體中文友善，持續更新。</p>
   <hr class="footer-divider" />
   <p style="margin-bottom:.6rem;">
     <a href="/">首頁</a> · <a href="/about.html">關於我們</a> · <a href="/privacy.html">隱私權政策</a> · <a href="mailto:m753419@gmail.com">聯絡我們</a>
@@ -328,30 +373,43 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5001125823079992" crossorigin="anonymous"></script>
 <script>
 var tools = [
-  { name: 'ChatGPT', icon: '💬', color: '#10a37f', cat: '對話/研究', desc: 'OpenAI 旗艦對話 AI，支援文字、圖片、程式碼，幾乎什麼都能做，全球使用人數最多。', pros: '✅ 功能全面、生態豐富、繁中表現佳', cons: '❌ 免費版有使用量限制、尖峰期較慢', price: '免費 / $20/月', rating: '★★★★★ 4.8', free: true, hot: true, url: 'https://chat.openai.com' },
-  { name: 'Claude', icon: '🤖', color: '#d97706', cat: '對話/研究', desc: 'Anthropic 出品，長文分析與寫作能力頂尖，隱私政策透明，對話語氣自然，適合深度工作者。', pros: '✅ 長文處理強、對話品質高、安全性佳', cons: '❌ 免費版對話次數有限、不支援圖片生成', price: '免費 / $20/月', rating: '★★★★★ 4.8', free: true, hot: true, url: 'https://claude.ai' },
-  { name: 'Gemini', icon: '✨', color: '#4285f4', cat: '對話/研究', desc: 'Google 的 AI 助手，與 Google Workspace 深度整合，搭配 Gmail、Docs、Drive 使用效果最好。', pros: '✅ Google 生態整合、即時搜尋能力強', cons: '❌ 獨立使用體驗不如 ChatGPT 豐富', price: '免費 / $20/月', rating: '★★★★☆ 4.5', free: true, url: 'https://gemini.google.com' },
-  { name: 'Perplexity', icon: '🔭', color: '#6366f1', cat: '對話/研究', desc: '結合搜尋引擎的 AI，每個回答都附帶可驗證的來源，最適合需要查資料、做研究的用戶。', pros: '✅ 回答附來源、即時資訊、研究利器', cons: '❌ 繁中支援有限、創作類不如 Claude', price: '免費 / $20/月', rating: '★★★★☆ 4.6', free: true, url: 'https://perplexity.ai' },
-  { name: 'Cursor', icon: '💻', color: '#0ea5e9', cat: '程式開發', desc: '目前開發者評價最高的 AI 編輯器，能理解整個 codebase，讓 AI 直接修改你的程式，效率大幅提升。', pros: '✅ 理解整個專案、自動修 Bug、體驗流暢', cons: '❌ 免費版每月有額度上限', price: '免費 / $20/月', rating: '★★★★★ 4.9', free: true, hot: true, url: 'https://www.cursor.com' },
-  { name: 'GitHub Copilot', icon: '🐙', color: '#24292e', cat: '程式開發', desc: 'GitHub 官方 AI 助手，整合在 VS Code 等主流編輯器，適合已有 GitHub 習慣的開發者，有免費版可試用。', pros: '✅ VS Code 整合、新手友善、免費可用', cons: '❌ 對整個 codebase 理解不如 Cursor 深', price: '免費 / $10/月', rating: '★★★★☆ 4.6', free: true, url: 'https://github.com/features/copilot' },
-  { name: 'Claude Code', icon: '⚡', color: '#b45309', cat: '程式開發', desc: 'Anthropic 的 CLI 編程 Agent，可在終端機自主完成複雜多步驟開發任務，不需要 GUI 介面。', pros: '✅ 自主完成任務、適合複雜專案', cons: '❌ 需要 API 額度計費、有學習曲線', price: '依 API 用量計費', rating: '★★★★☆ 4.5', free: false, isNew: true, url: 'https://claude.ai/code' },
-  { name: 'Midjourney', icon: '🎨', color: '#7c3aed', cat: '設計創作', desc: '業界公認圖片品質最高的 AI 繪圖工具，風格多樣細膩，是設計師與創作者的首選工具。', pros: '✅ 畫質最高、風格豐富、社群資源多', cons: '❌ 無免費版、需透過 Discord 操作', price: '$10/月起', rating: '★★★★★ 4.7', free: false, hot: true, url: 'https://www.midjourney.com' },
-  { name: 'Canva AI', icon: '🖌️', color: '#00c4cc', cat: '設計創作', desc: '設計平台 Canva 內建 AI，Magic Design 一鍵生成、AI 消除背景，不需設計背景也能做出專業素材。', pros: '✅ 介面直覺、繁中支援佳、免費版夠用', cons: '❌ AI 圖像品質不如 Midjourney 專業', price: '免費 / $15/月', rating: '★★★★☆ 4.5', free: true, url: 'https://www.canva.com' },
-  { name: 'Adobe Firefly', icon: '🔥', color: '#ff4500', cat: '設計創作', desc: 'Adobe 出品的 AI 生圖工具，訓練資料合法授權，商用安全無版權疑慮，適合企業與專業設計師。', pros: '✅ 商用授權清晰、Adobe 生態整合', cons: '❌ 生成風格不如 Midjourney 多樣', price: '免費 / $5/月起', rating: '★★★★☆ 4.3', free: true, url: 'https://firefly.adobe.com' },
-  { name: 'Runway', icon: '🎬', color: '#ef4444', cat: '影片生成', desc: '功能最完整的 AI 影片平台，支援文字轉影片、影片風格轉換、背景移除，是影片創作者的必備工具。', pros: '✅ 功能全面、影片品質穩定、可免費試用', cons: '❌ 免費版有浮水印、高品質需付費', price: '免費 / $15/月', rating: '★★★★☆ 4.5', free: true, url: 'https://runwayml.com' },
-  { name: 'Sora', icon: '🎥', color: '#1e293b', cat: '影片生成', desc: 'OpenAI 的文字轉影片模型，物理模擬逼真、畫面品質驚人，目前開放 ChatGPT Plus 用戶使用。', pros: '✅ 畫面品質頂尖、物理效果逼真', cons: '❌ 需 ChatGPT+ 訂閱、生成時間較長', price: '含於 ChatGPT+', rating: '★★★★☆ 4.6', free: false, hot: true, url: 'https://sora.com' },
-  { name: 'Kling AI', icon: '🌀', color: '#8b5cf6', cat: '影片生成', desc: '快手出品的 AI 影片工具，支援中文 prompt 生成，性價比高，是亞洲市場最受歡迎的影片 AI 之一。', pros: '✅ 中文 prompt、免費版大方、性價比高', cons: '❌ 生成速度有時較慢', price: '免費 / 訂閱制', rating: '★★★★☆ 4.4', free: true, isNew: true, url: 'https://klingai.com' },
-  { name: 'Notion AI', icon: '📝', color: '#334155', cat: '寫作', desc: 'Notion 內建 AI，適合已在使用 Notion 的用戶，可直接在筆記中做 AI 摘要、改寫、翻譯。', pros: '✅ 與 Notion 無縫整合、操作直覺', cons: '❌ 無免費版、離開 Notion 就沒用', price: '$10/月', rating: '★★★★☆ 4.3', free: false, url: 'https://www.notion.so' },
-  { name: 'Grammarly', icon: '✅', color: '#15c39a', cat: '寫作', desc: '英文寫作輔助工具，即時語法修正、風格建議、語氣調整，需要英文寫作的人必裝的瀏覽器外掛。', pros: '✅ 即時修正、瀏覽器整合方便', cons: '❌ 僅支援英文、進階功能需付費', price: '免費 / $12/月', rating: '★★★★☆ 4.4', free: true, url: 'https://www.grammarly.com' },
-  { name: 'Jasper', icon: '✍️', color: '#f97316', cat: '寫作', desc: '專為行銷內容設計的 AI 寫作工具，內建 50+ 行銷文案範本，適合需要大量產出行銷素材的團隊。', pros: '✅ 行銷文案範本豐富、品牌聲音設定', cons: '❌ 價格較高、中文支援有限', price: '$39/月起', rating: '★★★★☆ 4.2', free: false, url: 'https://www.jasper.ai' },
-  { name: 'ElevenLabs', icon: '🎙️', color: '#0d9488', cat: '寫作', desc: 'AI 語音合成工具，聲音自然度業界頂尖，支援多語言與聲音複製，適合 Podcast、有聲書、影片配音。', pros: '✅ 聲音最自然、多語言、免費版可用', cons: '❌ 免費版有每月字數限制', price: '免費 / $5/月', rating: '★★★★★ 4.7', free: true, url: 'https://elevenlabs.io' },
-  { name: 'Make', icon: '⚙️', color: '#6d28d9', cat: '自動化', desc: '視覺化自動化平台，可整合 1000+ 應用，拖拉就能設計工作流程，不需寫程式，適合非技術用戶。', pros: '✅ 視覺化操作、整合應用多、免費版夠用', cons: '❌ 複雜流程學習曲線較陡', price: '免費 / $9/月', rating: '★★★★☆ 4.5', free: true, url: 'https://www.make.com' },
-  { name: 'Zapier', icon: '⚡', color: '#ff4a00', cat: '自動化', desc: '自動化工具老牌龍頭，整合應用數量業界最多，操作最簡單，最適合完全不懂技術的用戶入門。', pros: '✅ 最多整合、操作最簡單、教學資源豐富', cons: '❌ 免費版功能受限、付費版較貴', price: '免費 / $20/月', rating: '★★★★☆ 4.4', free: true, url: 'https://zapier.com' },
-  { name: 'n8n', icon: '🔧', color: '#ea4b71', cat: '自動化', desc: '開源自動化工具，可自行部署在伺服器，資料不離開自己的環境，適合重視資料隱私的技術用戶。', pros: '✅ 開源免費、可自架、隱私最佳', cons: '❌ 需要技術能力、自架需要伺服器', price: '免費(自架) / $20/月', rating: '★★★★☆ 4.6', free: true, url: 'https://n8n.io' },
+  { name:'ChatGPT', icon:'💬', color:'#10a37f', cat:'對話/研究', desc:'OpenAI 旗艦對話 AI，全球市佔 64.5%，支援文字、圖片、程式碼、語音，幾乎什麼都能做。', pros:'✅ 功能全面、生態豐富、繁中表現佳', cons:'❌ 免費版有使用量限制、尖峰期較慢', prompt:'我是[你的職業]，幫我把這段文字改成口語、聊天感，目標200字以內：\n[貼上你的文字]', price:'免費 / $20/月', rating:'★★★★★ 4.8', free:true, hot:true, url:'https://chat.openai.com' },
+  { name:'Claude', icon:'🤖', color:'#d97706', cat:'對話/研究', desc:'Anthropic 出品，長文分析與寫作能力頂尖，隱私政策透明，對話語氣自然，深度工作者首選。', pros:'✅ 長文處理強、對話品質高、安全性佳', cons:'❌ 免費版對話次數有限、不支援圖片生成', prompt:'幫我分析這份文件的重點，列出3個關鍵洞察和2個潛在問題：\n[貼上文件內容]', price:'免費 / $20/月', rating:'★★★★★ 4.8', free:true, hot:true, url:'https://claude.ai' },
+  { name:'Gemini', icon:'✨', color:'#4285f4', cat:'對話/研究', desc:'Google AI 助手，全球市佔穩坐第二（20%+），與 Google Workspace 深度整合，即時搜尋能力強。', pros:'✅ Google 生態整合、即時資訊、Mac App 已上架', cons:'❌ 獨立使用體驗不如 ChatGPT 豐富', prompt:'用繁體中文幫我整理今天[主題]的最新新聞，列出3則重點，每則附來源。', price:'免費 / $20/月', rating:'★★★★☆ 4.5', free:true, url:'https://gemini.google.com' },
+  { name:'Perplexity', icon:'🔭', color:'#6366f1', cat:'對話/研究', desc:'結合搜尋引擎的 AI，每個回答都附帶可驗證的來源，是研究、查資料、事實查核的利器。', pros:'✅ 回答附來源、即時資訊、研究利器', cons:'❌ 繁中支援有限、創作類不如 Claude', prompt:'幫我查詢[主題]的最新研究，要附上具體來源連結，並用繁體中文整理成3個重點。', price:'免費 / $20/月', rating:'★★★★☆ 4.6', free:true, url:'https://perplexity.ai' },
+  { name:'NotebookLM', icon:'📚', color:'#1a73e8', cat:'簡報/學習', desc:'Google 出品的 AI 筆記工具，可上傳 PDF、網頁、影片，讓 AI 幫你整理成學習筆記，完全免費。', pros:'✅ 完全免費、支援 PDF/影片、繁中佳', cons:'❌ 功能較單一、主要限於上傳的資料範圍', prompt:'根據我上傳的文件，幫我生成5個可能的考題，並提供參考答案。', price:'完全免費', rating:'★★★★★ 4.8', free:true, isNew:true, url:'https://notebooklm.google.com' },
+  { name:'Gamma', icon:'📊', color:'#6c47ff', cat:'簡報/學習', desc:'AI 簡報生成工具，輸入主題就能一鍵生成精美簡報，卡片式設計靈活，適合做提案、報告。', pros:'✅ 一鍵生成簡報、設計精美、繁中支援', cons:'❌ 免費版有浮水印、進階版需付費', prompt:'幫我製作一份關於[主題]的10頁簡報大綱，每頁包含標題、重點內容和一個具體數據。', price:'免費 / $8/月', rating:'★★★★☆ 4.5', free:true, isNew:true, url:'https://gamma.app' },
+  { name:'Microsoft Copilot', icon:'🪟', color:'#0078d4', cat:'對話/研究', desc:'微軟 AI 助手，深度整合 Word、Excel、PowerPoint、Outlook，是 Microsoft 365 用戶的最佳選擇。', pros:'✅ Office 整合、企業友善、免費版可用', cons:'❌ 創意類不如 ChatGPT、需 Microsoft 帳號', prompt:'幫我整理這份 Excel 資料的摘要，找出異常值並給出改善建議。', price:'免費 / $30/月(企業)', rating:'★★★★☆ 4.3', free:true, url:'https://copilot.microsoft.com' },
+  { name:'Cursor', icon:'💻', color:'#0ea5e9', cat:'程式開發', desc:'目前開發者評價最高的 AI 編輯器（★4.9），能理解整個 codebase，讓 AI 直接修改程式，效率大幅提升。', pros:'✅ 理解整個專案、自動修 Bug、體驗流暢', cons:'❌ 免費版每月有額度上限', prompt:'幫我看這段程式碼，找出潛在的 Bug 和效能問題，並給出修改建議：\n[貼上程式碼]', price:'免費 / $20/月', rating:'★★★★★ 4.9', free:true, hot:true, url:'https://www.cursor.com' },
+  { name:'GitHub Copilot', icon:'🐙', color:'#24292e', cat:'程式開發', desc:'GitHub 官方 AI 助手，整合在 VS Code 等主流編輯器，適合已有 GitHub 習慣的開發者，有免費版。', pros:'✅ VS Code 整合、新手友善、免費可用', cons:'❌ 對整個 codebase 理解不如 Cursor', prompt:'根據這個函數說明，幫我寫一個完整的單元測試：\n[貼上函數描述]', price:'免費 / $10/月', rating:'★★★★☆ 4.6', free:true, url:'https://github.com/features/copilot' },
+  { name:'Claude Code', icon:'⚡', color:'#b45309', cat:'程式開發', desc:'Anthropic 的 CLI 編程 Agent，可在終端機自主完成複雜多步驟開發任務，適合重度開發者。', pros:'✅ 自主完成任務、理解整個專案結構', cons:'❌ 需要 API 額度計費、有學習曲線', prompt:'分析這個 codebase 的整體架構，找出值得重構的3個地方並說明原因。', price:'依 API 用量計費', rating:'★★★★☆ 4.5', free:false, isNew:true, url:'https://claude.ai/code' },
+  { name:'Midjourney', icon:'🎨', color:'#7c3aed', cat:'設計創作', desc:'業界公認圖片品質最高的 AI 繪圖工具，風格多樣細膩，設計師與創作者的首選，無免費版。', pros:'✅ 畫質最高、風格豐富、社群資源多', cons:'❌ 無免費版、需透過 Discord 操作', prompt:'A minimalist product photo of [產品], white background, professional lighting, 4K, commercial photography style', price:'$10/月起', rating:'★★★★★ 4.7', free:false, hot:true, url:'https://www.midjourney.com' },
+  { name:'Canva AI', icon:'🖌️', color:'#00c4cc', cat:'設計創作', desc:'設計平台 Canva 內建 AI，Magic Design 一鍵生成、AI 消除背景，不需設計背景也能做出專業素材。', pros:'✅ 介面直覺、繁中支援佳、免費版功能豐富', cons:'❌ AI 圖像品質不如 Midjourney 專業', prompt:'幫我設計一張[主題]的 IG 貼文，風格：[你想要的風格]，顏色：[主色調]', price:'免費 / $15/月', rating:'★★★★☆ 4.5', free:true, url:'https://www.canva.com' },
+  { name:'Adobe Firefly', icon:'🔥', color:'#ff4500', cat:'設計創作', desc:'Adobe 出品 AI 生圖工具，訓練資料合法授權，商用安全無版權疑慮，適合企業與專業設計師。', pros:'✅ 商用授權清晰、Adobe 生態整合', cons:'❌ 生成風格不如 Midjourney 多樣', prompt:'Generate a [style] illustration of [subject] for commercial use, suitable for [platform], no copyrighted elements', price:'免費 / $5/月起', rating:'★★★★☆ 4.3', free:true, url:'https://firefly.adobe.com' },
+  { name:'MyEdit', icon:'🇹🇼', color:'#16a34a', cat:'設計創作', desc:'台灣開發的 AI 圖片與音訊編輯工具，完整繁體中文介面，每日提供免費生成點數，新手友善。', pros:'✅ 台灣開發、繁中介面、每日免費點數', cons:'❌ 功能深度不如 Midjourney 等國際工具', prompt:'用繁體中文描述：幫我生成一張[台灣風景/美食]的照片，寫實風格，高畫質', price:'免費 / 訂閱制', rating:'★★★★☆ 4.4', free:true, isNew:true, isTW:true, url:'https://myedit.online/tw' },
+  { name:'Runway', icon:'🎬', color:'#ef4444', cat:'影片生成', desc:'功能最完整的 AI 影片平台，支援文字轉影片、影片風格轉換、背景移除，影片創作者的必備工具。', pros:'✅ 功能全面、影片品質穩定、免費版可試', cons:'❌ 免費版有浮水印、高品質需付費', prompt:'Generate a 4-second cinematic video: [場景描述], [光線描述], [鏡頭運動], 4K quality', price:'免費 / $15/月', rating:'★★★★☆ 4.5', free:true, url:'https://runwayml.com' },
+  { name:'Sora', icon:'🎥', color:'#1e293b', cat:'影片生成', desc:'OpenAI 的文字轉影片模型，物理模擬逼真、畫面品質驚人，目前開放 ChatGPT Plus 用戶使用。', pros:'✅ 畫面品質頂尖、物理效果逼真', cons:'❌ 需 ChatGPT+ 訂閱、生成時間較長', prompt:'A cinematic shot of [場景], [時間], [天氣], slow motion, 4K, photorealistic', price:'含於 ChatGPT+', rating:'★★★★☆ 4.6', free:false, hot:true, url:'https://sora.com' },
+  { name:'Kling AI', icon:'🌀', color:'#8b5cf6', cat:'影片生成', desc:'快手出品的 AI 影片工具，支援中文 prompt，性價比高，台灣中文創作場景表現佳。', pros:'✅ 中文 prompt 支援、免費版大方、性價比高', cons:'❌ 生成速度有時較慢', prompt:'生成一段8秒影片：台灣[城市]的[場景]，[時間段]，[氛圍]，電影感，慢鏡頭', price:'免費 / 訂閱制', rating:'★★★★☆ 4.4', free:true, isNew:true, url:'https://klingai.com' },
+  { name:'Notion AI', icon:'📝', color:'#334155', cat:'寫作', desc:'Notion 內建 AI，適合已使用 Notion 的用戶，可直接在筆記中做 AI 摘要、改寫、翻譯。', pros:'✅ 與 Notion 無縫整合、操作直覺', cons:'❌ 無免費版、離開 Notion 就沒用', prompt:'幫我整理這份會議記錄的重點，列出：1.決議事項 2.待辦清單 3.下次會議議題', price:'$10/月', rating:'★★★★☆ 4.3', free:false, url:'https://www.notion.so' },
+  { name:'Grammarly', icon:'✅', color:'#15c39a', cat:'寫作', desc:'英文寫作輔助工具，即時語法修正、風格建議、語氣調整，需要英文寫作的人必裝的瀏覽器外掛。', pros:'✅ 即時修正、瀏覽器整合方便、免費版夠用', cons:'❌ 僅支援英文、進階功能需付費', prompt:'Please improve this email to sound more professional and concise:\n[貼上你的英文信件]', price:'免費 / $12/月', rating:'★★★★☆ 4.4', free:true, url:'https://www.grammarly.com' },
+  { name:'Jasper', icon:'✍️', color:'#f97316', cat:'寫作', desc:'專為行銷內容設計的 AI 寫作工具，內建 50+ 行銷文案範本，適合需要大量行銷素材的團隊。', pros:'✅ 行銷文案範本豐富、品牌聲音設定', cons:'❌ 價格較高、中文支援有限', prompt:'Write a Facebook ad for [產品名稱], targeting [目標族群], highlight [核心賣點], include a call-to-action', price:'$39/月起', rating:'★★★★☆ 4.2', free:false, url:'https://www.jasper.ai' },
+  { name:'ElevenLabs', icon:'🎙️', color:'#0d9488', cat:'寫作', desc:'AI 語音合成工具，聲音自然度業界頂尖，支援多語言與聲音複製，適合 Podcast、有聲書、配音。', pros:'✅ 聲音最自然、多語言支援、免費版可用', cons:'❌ 免費版有每月字數限制', prompt:'使用繁體中文，幫我把這段文字改寫成適合 Podcast 播出的口語稿，語氣輕鬆：\n[貼上文字]', price:'免費 / $5/月', rating:'★★★★★ 4.7', free:true, url:'https://elevenlabs.io' },
+  { name:'Make', icon:'⚙️', color:'#6d28d9', cat:'自動化', desc:'視覺化自動化平台，可整合 1000+ 應用，拖拉就能設計工作流程，不需寫程式，適合非技術用戶。', pros:'✅ 視覺化操作、整合應用多、免費版夠用', cons:'❌ 複雜流程學習曲線較陡', prompt:'我想把每天收到的[郵件類型]自動整理到 Notion，並發送摘要到 LINE，幫我設計流程步驟。', price:'免費 / $9/月', rating:'★★★★☆ 4.5', free:true, url:'https://www.make.com' },
+  { name:'Zapier', icon:'⚡', color:'#ff4a00', cat:'自動化', desc:'自動化工具老牌龍頭，整合應用數量業界最多，操作最簡單，最適合完全不懂技術的用戶入門。', pros:'✅ 最多整合、操作最簡單、教學資源豐富', cons:'❌ 免費版功能受限、付費版較貴', prompt:'幫我設計一個自動化流程：當有人填寫 Google 表單後，自動發 Email 通知我並記錄到試算表。', price:'免費 / $20/月', rating:'★★★★☆ 4.4', free:true, url:'https://zapier.com' },
+  { name:'n8n', icon:'🔧', color:'#ea4b71', cat:'自動化', desc:'開源自動化工具，可自行部署在伺服器，資料不離開自己的環境，適合重視資料隱私的技術用戶。', pros:'✅ 開源免費、可自架、隱私最佳', cons:'❌ 需要技術能力、自架需要伺服器', prompt:'幫我規劃一個 n8n 自動化流程：每天早上8點爬取[網站]最新文章，整理後發送到我的 Telegram。', price:'免費(自架) / $20/月', rating:'★★★★☆ 4.6', free:true, url:'https://n8n.io' },
+  { name:'Manus', icon:'🦾', color:'#0f172a', cat:'對話/研究', desc:'新一代 AI Agent 工具，能自主完成多步驟複雜任務，被稱為「真正能幫你做事的 AI」，2026 年最受關注。', pros:'✅ 自主完成任務、多步驟工作流、真實 Agent', cons:'❌ 目前仍在邀請制、功能尚在完善中', prompt:'幫我研究[主題]市場，分析5個主要競品的定價策略和行銷訊息，生成一份策略建議報告。', price:'邀請制 / 訂閱制', rating:'★★★★☆ 4.4', free:false, isNew:true, url:'https://manus.im' },
 ];
 
 var currentFilter = '全部';
 var currentSearch = '';
+
+function copyPrompt(text) {
+  navigator.clipboard.writeText(text).then(function() {
+    var toast = document.getElementById('toast');
+    toast.classList.add('show');
+    setTimeout(function(){ toast.classList.remove('show'); }, 2000);
+  });
+}
 
 function renderTools() {
   var grid = document.getElementById('toolsGrid');
@@ -359,30 +417,41 @@ function renderTools() {
   var filtered = tools.filter(function(t) {
     var matchCat = currentFilter === '全部' || t.cat === currentFilter;
     var q = currentSearch.toLowerCase();
-    var matchSearch = !q || t.name.toLowerCase().indexOf(q) > -1 || t.desc.indexOf(q) > -1 || t.cat.indexOf(q) > -1 || t.pros.indexOf(q) > -1;
+    var matchSearch = !q || t.name.toLowerCase().indexOf(q)>-1 || t.desc.indexOf(q)>-1 || t.cat.indexOf(q)>-1 || t.pros.indexOf(q)>-1 || (t.isTW && '台灣'.indexOf(q)>-1);
     return matchCat && matchSearch;
   });
-  if (sort === 'rating') filtered.sort(function(a,b){ return parseFloat(b.rating.match(/[\d.]+$/)[0]) - parseFloat(a.rating.match(/[\d.]+$/)[0]); });
-  else if (sort === 'free') filtered.sort(function(a,b){ return (b.free?1:0)-(a.free?1:0); });
-  document.getElementById('toolCount').textContent = '共 ' + filtered.length + ' 款';
-  if (!filtered.length) { grid.innerHTML = '<div class="no-results">😢 沒有符合條件的工具，試試其他關鍵字</div>'; return; }
-  grid.innerHTML = filtered.map(function(t, i) {
-    return '<div class="tool-card' + (t.hot?' featured':'') + '" style="animation-delay:' + (i*0.04) + 's">' +
-      (t.hot ? '<div class="featured-badge">🔥 熱門</div>' : '') +
-      '<div class="tool-header">' +
-        '<div class="tool-icon" style="background:' + t.color + '22;">' + t.icon + '</div>' +
-        '<div><div class="tool-name">' + t.name + '</div>' +
-        '<div class="tool-badges"><span class="tool-tag">' + t.cat + '</span>' +
-        (t.free ? '<span class="badge-free">免費版</span>' : '') +
-        (t.isNew ? '<span class="badge-new">NEW</span>' : '') +
-        '</div></div></div>' +
-      '<div class="tool-desc">' + t.desc + '</div>' +
-      '<div class="tool-pros">' + t.pros + '</div>' +
-      '<div class="tool-cons">' + t.cons + '</div>' +
-      '<div class="tool-footer"><div>' +
-        '<div class="tool-price">' + t.price + '</div>' +
-        '<div class="tool-rating">' + t.rating + '</div>' +
-      '</div><a class="tool-link" href="' + t.url + '" target="_blank" rel="noopener">前往 →</a></div></div>';
+  if (sort==='rating') filtered.sort(function(a,b){ return parseFloat(b.rating.match(/[\d.]+$/)[0])-parseFloat(a.rating.match(/[\d.]+$/)[0]); });
+  else if (sort==='free') filtered.sort(function(a,b){ return (b.free?1:0)-(a.free?1:0); });
+
+  document.getElementById('toolCount').textContent = '共 '+filtered.length+' 款';
+  if (!filtered.length) { grid.innerHTML='<div class="no-results">😢 沒有符合條件的工具，試試其他關鍵字</div>'; return; }
+
+  grid.innerHTML = filtered.map(function(t,i) {
+    var topBadge = t.isTW ? '<div class="tw-badge-top">🇹🇼 台灣工具</div>' : (t.hot ? '<div class="featured-badge">🔥 熱門</div>' : '');
+    var cardClass = 'tool-card' + (t.isTW?' tw-local':t.hot?' featured':'');
+    var promptEsc = t.prompt.replace(/'/g,"&#39;").replace(/\n/g,"\\n");
+    return '<div class="'+cardClass+'" style="animation-delay:'+(i*0.04)+'s">'+
+      topBadge+
+      '<div class="tool-header">'+
+        '<div class="tool-icon" style="background:'+t.color+'22;">'+t.icon+'</div>'+
+        '<div><div class="tool-name">'+t.name+'</div>'+
+        '<div class="tool-badges"><span class="tool-tag">'+t.cat+'</span>'+
+        (t.free?'<span class="badge-free">免費版</span>':'')+
+        (t.isNew?'<span class="badge-new">NEW</span>':'')+
+        (t.isTW?'<span class="badge-tw">台灣</span>':'')+
+        '</div></div></div>'+
+      '<div class="tool-desc">'+t.desc+'</div>'+
+      '<div class="tool-pros">'+t.pros+'</div>'+
+      '<div class="tool-cons">'+t.cons+'</div>'+
+      '<div class="tool-prompt">'+
+        '<div class="tool-prompt-label">📋 Prompt 範例（點擊複製）</div>'+
+        '<div class="tool-prompt-text" onclick="copyPrompt(\''+promptEsc+'\')">'+t.prompt.replace(/\n/g,'<br>')+'</div>'+
+        '<div class="copy-hint">點擊複製，貼到工具即可使用</div>'+
+      '</div>'+
+      '<div class="tool-footer"><div>'+
+        '<div class="tool-price">'+t.price+'</div>'+
+        '<div class="tool-rating">'+t.rating+'</div>'+
+      '</div><a class="tool-link" href="'+t.url+'" target="_blank" rel="noopener">前往 →</a></div></div>';
   }).join('');
 }
 
@@ -394,27 +463,18 @@ function setFilter(cat, btn) {
   renderTools();
 }
 
-function doSearch() {
-  currentSearch = document.getElementById('searchInput').value;
-  renderTools();
-}
-
-function quickSearch(q) {
-  document.getElementById('searchInput').value = q;
-  currentSearch = q;
-  renderTools();
-  document.getElementById('tools').scrollIntoView({ behavior: 'smooth' });
-}
+function doSearch() { currentSearch=document.getElementById('searchInput').value; renderTools(); }
+function quickSearch(q) { document.getElementById('searchInput').value=q; currentSearch=q; renderTools(); document.getElementById('tools').scrollIntoView({behavior:'smooth'}); }
 
 function showScenario(name, btn, toolNames) {
   document.querySelectorAll('.scenario-btn').forEach(function(b){ b.classList.remove('active'); });
   btn.classList.add('active');
-  document.getElementById('scenarioTitle').textContent = '✨ 推薦給「' + name + '」場景的工具：';
-  document.getElementById('scenarioTools').innerHTML = toolNames.map(function(n){
-    return '<span class="rec-tool" onclick="quickSearch(\'' + n + '\')">' + n + '</span>';
+  document.getElementById('scenarioTitle').textContent='✨ 推薦給「'+name+'」場景的工具：';
+  document.getElementById('scenarioTools').innerHTML=toolNames.map(function(n){
+    return '<span class="rec-tool" onclick="quickSearch(\''+n+'\')">'+n+'</span>';
   }).join('');
   document.getElementById('scenarioResult').classList.add('show');
-  document.getElementById('tools').scrollIntoView({ behavior: 'smooth' });
+  document.getElementById('tools').scrollIntoView({behavior:'smooth'});
 }
 
 function hideScenario() {
@@ -422,8 +482,9 @@ function hideScenario() {
   document.querySelectorAll('.scenario-btn').forEach(function(b){ b.classList.remove('active'); });
 }
 
-document.getElementById('searchInput').addEventListener('input', function(){ currentSearch = this.value; renderTools(); });
+document.getElementById('searchInput').addEventListener('input', function(){ currentSearch=this.value; renderTools(); });
 document.getElementById('searchInput').addEventListener('keydown', function(e){ if(e.key==='Enter') doSearch(); });
+
 renderTools();
 </script>
 </body>
