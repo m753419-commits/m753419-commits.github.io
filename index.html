@@ -3,102 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI工具導航 - 找到最適合你的AI工具</title>
-<!-- Google AdSense 驗證 -->
+<title>AI工具導航 - 2026 最新 AI 工具推薦、評測與比較</title>
+<meta name="description" content="AI工具導航幫你快速找到最適合的 AI 工具。收錄 ChatGPT、Claude、Cursor、Midjourney 等 20+ 熱門工具，依使用場景、預算、需求精準推薦。">
+<meta name="keywords" content="AI工具, AI推薦, ChatGPT, Claude, Cursor, AI比較, 2026 AI工具">
 <meta name="google-adsense-account" content="ca-pub-5001125823079992">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5001125823079992"
-     crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5001125823079992" crossorigin="anonymous"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AI工具導航",
+  "description": "2026 最新 AI 工具推薦、評測與比較平台",
+  "url": "https://m753419-commits.github.io"
+}
+</script>
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f5f7fa;color:#1a1a2e;line-height:1.6}
   a{color:#4f46e5;text-decoration:none}
 
-  /* Layout */
-  .header{
-    background:#fff;border-bottom:1px solid #e8ecf1;padding:0 24px;
-    display:flex;align-items:center;justify-content:space-between;height:60px;
-    position:sticky;top:0;z-index:100
-  }
+  .header{background:#fff;border-bottom:1px solid #e8ecf1;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:60px;position:sticky;top:0;z-index:100}
   .logo{font-weight:800;font-size:1.15rem;display:flex;align-items:center;gap:8px}
   .logo span{color:#4f46e5}
   .header nav{display:flex;gap:20px;font-size:.875rem}
   .header nav a{color:#475569}
   .header nav a:hover{color:#4f46e5}
+  .hamburger{display:none;font-size:1.5rem;cursor:pointer;background:none;border:none;color:#1a1a2e}
 
-  .hero{
-    background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;
-    padding:60px 24px;text-align:center
-  }
+  .hero{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;padding:64px 24px;text-align:center}
   .hero h1{font-size:2rem;font-weight:800;margin-bottom:10px}
-  .hero p{font-size:1rem;opacity:.85;max-width:520px;margin:0 auto 24px}
-  .search-box{
-    max-width:480px;margin:0 auto;display:flex;gap:0;
-    background:#fff;border-radius:10px;overflow:hidden
-  }
-  .search-box input{
-    flex:1;border:none;padding:14px 18px;font-size:.9rem;outline:none
-  }
-  .search-box button{
-    background:#1a1a2e;color:#fff;border:none;padding:14px 28px;
-    font-weight:600;cursor:pointer;font-size:.875rem
-  }
+  .hero p{font-size:1rem;opacity:.85;max-width:560px;margin:0 auto 24px}
+  .hero-stats{display:flex;gap:32px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+  .hero-stats div{text-align:center}
+  .hero-stats .n{font-size:1.4rem;font-weight:800}
+  .hero-stats .l{font-size:.75rem;opacity:.7}
+  .search-box{max-width:500px;margin:0 auto;display:flex;background:#fff;border-radius:10px;overflow:hidden}
+  .search-box input{flex:1;border:none;padding:14px 18px;font-size:.9rem;outline:none}
+  .search-box button{background:#1a1a2e;color:#fff;border:none;padding:14px 28px;font-weight:600;cursor:pointer;font-size:.875rem}
   .search-box button:hover{background:#333}
 
   .container{max-width:1100px;margin:0 auto;padding:32px 16px}
-  .ad-banner{
-    background:linear-gradient(135deg,#1e293b,#334155);border-radius:12px;
-    padding:20px 28px;display:flex;align-items:center;justify-content:space-between;
-    gap:16px;margin:24px 0;flex-wrap:wrap;color:#fff
-  }
-  .ad-banner .ad-label{font-size:.7rem;color:#64748b;text-transform:uppercase;letter-spacing:1px}
-  .ad-banner p{font-size:.85rem;flex:1;min-width:200px}
-  .ad-banner .btn-ad{
-    background:#4f46e5;color:#fff;padding:10px 28px;border-radius:8px;
-    font-weight:700;font-size:.85rem;white-space:nowrap
-  }
-  .ad-banner .btn-ad:hover{background:#4338ca}
-  .ad-card{
-    background:linear-gradient(135deg,#fef3c7,#fde68a);border:1px solid #f59e0b;
-    border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:6px
-  }
-  .ad-card .ad-label{font-size:.65rem;color:#92400e;text-transform:uppercase;letter-spacing:1px}
-  .ad-card h4{font-size:.9rem;color:#1a1a2e}
-  .ad-card p{font-size:.78rem;color:#78350f}
-  .ad-card .btn-ad{
-    align-self:flex-start;background:#1a1a2e;color:#fff;padding:6px 18px;
-    border-radius:6px;font-size:.75rem;font-weight:600;margin-top:4px
-  }
 
-  /* Category Pills */
-  .categories{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:32px}
-  .categories button{
-    padding:8px 20px;border-radius:100px;border:1px solid #d1d5db;
-    background:#fff;font-size:.8rem;cursor:pointer;transition:.12s;font-weight:500
-  }
+  .categories{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:28px}
+  .categories button{padding:8px 20px;border-radius:100px;border:1px solid #d1d5db;background:#fff;font-size:.8rem;cursor:pointer;transition:.12s;font-weight:500}
   .categories button:hover{border-color:#4f46e5;color:#4f46e5}
   .categories button.active{background:#4f46e5;color:#fff;border-color:#4f46e5}
 
-  .section-title{
-    font-size:1.25rem;font-weight:700;margin:40px 0 20px;
-    display:flex;align-items:center;gap:8px
-  }
+  .section-title{font-size:1.25rem;font-weight:700;margin:40px 0 20px;display:flex;align-items:center;gap:8px}
   .section-title small{font-weight:400;font-size:.8rem;color:#64748b}
 
-  /* Tool Grid */
   .tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
-  .tool-card{
-    background:#fff;border-radius:12px;padding:20px;
-    border:1px solid #e8ecf1;transition:.12s
-  }
+  .tool-card{background:#fff;border-radius:12px;padding:20px;border:1px solid #e8ecf1;transition:.12s}
   .tool-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.06);border-color:#cbd5e1}
   .tool-card .emoji{font-size:1.75rem;margin-bottom:8px}
   .tool-card h3{font-size:1rem;font-weight:700}
   .tool-card .desc{font-size:.8rem;color:#64748b;margin:6px 0 12px}
   .tool-card .meta{display:flex;gap:12px;font-size:.75rem;color:#94a3b8;margin-bottom:10px}
-  .tool-card .tag{
-    display:inline-block;font-size:.65rem;font-weight:600;
-    padding:3px 10px;border-radius:100px
-  }
+  .tool-card .tag{display:inline-block;font-size:.65rem;font-weight:600;padding:3px 10px;border-radius:100px}
   .tag.pop{background:#dbeafe;color:#1e40af}
   .tag.dev{background:#e0f2fe;color:#0c4a6e}
   .tag.des{background:#fae8ff;color:#86198f}
@@ -107,19 +68,17 @@
   .tag.auto{background:#fef9c3;color:#92400e}
   .tag.wri{background:#e0e7ff;color:#3730a3}
 
-  /* Needs Section */
+  .ad-box{background:linear-gradient(135deg,#1e293b,#334155);border-radius:12px;padding:20px;text-align:center;margin:24px 0;color:#fff}
+  .ad-box .label{font-size:.7rem;color:#64748b;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
+  .ad-box .placeholder{font-size:.78rem;color:#64748b;padding:20px;border:1px dashed #475569;border-radius:8px}
+
   .needs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-  .need-item{
-    background:#fff;border-radius:10px;padding:18px;border:1px solid #e8ecf1
-  }
+  .need-item{background:#fff;border-radius:10px;padding:18px;border:1px solid #e8ecf1}
   .need-item .num{font-size:.7rem;font-weight:700;color:#4f46e5}
   .need-item h4{font-size:.85rem;font-weight:600;margin:2px 0 4px}
   .need-item p{font-size:.78rem;color:#64748b}
 
-  /* Compare Table */
-  .table-wrap{
-    overflow-x:auto;background:#fff;border-radius:12px;border:1px solid #e8ecf1
-  }
+  .table-wrap{overflow-x:auto;background:#fff;border-radius:12px;border:1px solid #e8ecf1}
   table{width:100%;border-collapse:collapse;font-size:.82rem}
   th{background:#f1f5f9;text-align:left;padding:10px 14px;font-weight:600;white-space:nowrap}
   td{padding:10px 14px;border-top:1px solid #e8ecf1}
@@ -128,25 +87,28 @@
   .price{font-weight:600;color:#059669}
   .price.free{color:#4f46e5}
 
-  /* CTA */
-  .cta{
-    text-align:center;padding:48px 24px;
-    background:linear-gradient(135deg,#1a1a2e,#4f46e5);color:#fff;border-radius:16px;
-    margin-top:48px
-  }
+  .blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .blog-card{background:#fff;border-radius:12px;padding:20px;border:1px solid #e8ecf1}
+  .blog-card .cat-tag{font-size:.65rem;font-weight:600;color:#4f46e5;text-transform:uppercase;letter-spacing:.5px}
+  .blog-card h3{font-size:.95rem;font-weight:700;margin:6px 0}
+  .blog-card p{font-size:.8rem;color:#64748b}
+  .blog-card a{font-size:.78rem;font-weight:600;display:inline-block;margin-top:10px}
+
+  .cta{text-align:center;padding:48px 24px;background:linear-gradient(135deg,#1a1a2e,#4f46e5);color:#fff;border-radius:16px;margin-top:48px}
   .cta h2{font-size:1.3rem;margin-bottom:8px}
   .cta p{opacity:.8;font-size:.9rem;margin-bottom:20px}
-  .cta .btn{
-    display:inline-block;background:#fff;color:#1a1a2e;padding:12px 36px;
-    border-radius:10px;font-weight:700;font-size:.9rem
-  }
+  .cta .btn{display:inline-block;background:#fff;color:#1a1a2e;padding:12px 36px;border-radius:10px;font-weight:700;font-size:.9rem}
   .cta .btn:hover{opacity:.9}
 
   .footer{text-align:center;padding:32px 16px;color:#94a3b8;font-size:.78rem}
+  .footer a{color:#64748b;margin:0 8px}
+  .footer a:hover{color:#4f46e5}
 
   @media(max-width:640px){
     .hero h1{font-size:1.4rem}
+    .hero-stats{gap:16px}
     .header nav{display:none}
+    .hamburger{display:block}
     .tool-grid{grid-template-columns:1fr}
   }
 </style>
@@ -156,26 +118,33 @@
 <div class="header">
   <div class="logo">⚡ <span>AI工具導航</span></div>
   <nav>
-    <a href="#tools">工具列表</a>
-    <a href="#needs">用戶需求</a>
-    <a href="#compare">比較</a>
-    <a href="#about">關於</a>
+    <a href="/">首頁</a>
+    <a href="/#tools">工具列表</a>
+    <a href="/#compare">比較</a>
+    <a href="/#articles">文章</a>
+    <a href="/about.html">關於</a>
   </nav>
+  <button class="hamburger" onclick="document.querySelector('.header nav').style.display='flex'">☰</button>
 </div>
 
 <div class="hero">
   <h1>找到最適合你的 AI 工具</h1>
-  <p>不用再迷茫 — 依你的使用場景、預算、需求，快速找到對的 AI 工具</p>
+  <p>不用再迷茫 — 依你的使用場景、預算、需求，快速找到對的 AI 工具。收錄 20+ 熱門工具，持續更新</p>
   <div class="search-box">
-    <input type="text" placeholder="搜尋工具名稱或用途（例如：寫文案、畫圖、寫程式）..." id="searchInput" oninput="filterTools()">
+    <input type="text" placeholder="搜尋工具名稱或用途（寫文案、畫圖、寫程式）..." id="searchInput" oninput="filterTools()">
     <button onclick="filterTools()">搜尋</button>
+  </div>
+  <div class="hero-stats">
+    <div><div class="n">20+</div><div class="l">收錄工具</div></div>
+    <div><div class="n">6</div><div class="l">分類</div></div>
+    <div><div class="n">2026</div><div class="l">最新數據</div></div>
   </div>
 </div>
 
-<div class="container" id="tools">
+<div class="container">
 
   <div class="categories" id="categoryFilter">
-    <button class="active" data-cat="all" onclick="setCategory('all')">全部</button>
+    <button class="active" data-cat="all" onclick="setCategory('all')">🔥 全部</button>
     <button data-cat="chat" onclick="setCategory('chat')">💬 對話/研究</button>
     <button data-cat="code" onclick="setCategory('code')">💻 程式開發</button>
     <button data-cat="design" onclick="setCategory('design')">🎨 設計創作</button>
@@ -184,231 +153,118 @@
     <button data-cat="auto" onclick="setCategory('auto')">⚙️ 自動化</button>
   </div>
 
-  <div class="section-title">推薦工具 <small>點分類篩選</small></div>
-
+  <div class="section-title" id="tools">推薦 AI 工具 <small>點分類篩選 · 共 <span id="toolCount">20+</span> 款</small></div>
   <div class="tool-grid" id="toolGrid"></div>
 
-  <!-- Google AdSense 廣告 1 (橫幅 728×90) -->
-  <div class="ad-banner" style="flex-direction:column;gap:8px;padding:16px">
-    <div class="ad-label" style="align-self:flex-start">廣告</div>
-    <div style="min-height:90px;width:100%;display:flex;align-items:center;justify-content:center;background:#1a2744;border-radius:8px;">
-      <ins class="adsbygoogle"
-           style="display:inline-block;width:728px;height:90px"
-           data-ad-client="ca-pub-5001125823079992"
-           data-ad-slot="YOUR_SLOT_ID_1"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
-    <!--
-      審核通過後，到 AdSense 後台 → 廣告 → 展示廣告 → 新增廣告單元，
-      取得 data-ad-slot 的值，替換上方 YOUR_SLOT_ID_1
-      再把 ca-pub-5001125823079992 換成你的 Publisher ID
-    -->
+  <div class="ad-box">
+    <div class="label">廣告</div>
+    <div class="placeholder">Google AdSense 廣告將在此顯示（審核通過後自動投放）</div>
   </div>
 
-<div class="section-title" id="needs">使用者在 AI 工具網站上的真實需求</div>
+  <div class="section-title" id="needs">使用者在 AI 工具網站上的真實需求</div>
   <div class="needs">
-    <div class="need-item">
-      <div class="num">需求 1</div>
-      <h4>🔍 快速比較與篩選</h4>
-      <p>用戶不想一個一個點開看，需要按分類、價格、評分直接篩選出候選清單</p>
-    </div>
-    <div class="need-item">
-      <div class="num">需求 2</div>
-      <h4>🎯 場景導向推薦</h4>
-      <p>「我要做簡報」、「我要寫論文」、「我要剪影片」— 用戶想要直接對應的使用情境</p>
-    </div>
-    <div class="need-item">
-      <div class="num">需求 3</div>
-      <h4>💰 價格透明化</h4>
-      <p>免費方案夠用嗎？付費版多了什麼？有沒有隱藏費用？用戶要清楚的答案</p>
-    </div>
-    <div class="need-item">
-      <div class="num">需求 4</div>
-      <h4>🛡️ 信任資訊</h4>
-      <p>這工具安全嗎？資料會被拿來訓練嗎？商用有沒有版權問題？</p>
-    </div>
-    <div class="need-item">
-      <div class="num">需求 5</div>
-      <h4>📚 使用教學</h4>
-      <p>拿到工具後怎麼用？用戶需要 Prompt 範例、快速入門指南、最佳實踐</p>
-    </div>
-    <div class="need-item">
-      <div class="num">需求 6</div>
-      <h4>🔗 整合資訊</h4>
-      <p>這個工具能接 Slack、Notion、GitHub 嗎？API 好不好串？</p>
-    </div>
-    <!-- Google AdSense 廣告 2 (正方形) -->
-    <div class="ad-card">
-      <div class="ad-label">廣告</div>
-      <div style="min-height:200px;display:flex;align-items:center;justify-content:center;background:#fef3c7;border-radius:8px;">
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:250px;height:250px"
-             data-ad-client="ca-pub-5001125823079992"
-             data-ad-slot="YOUR_SLOT_ID_2"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      </div>
-    </div>
+    <div class="need-item"><div class="num">需求 1</div><h4>🔍 快速比較與篩選</h4><p>用戶不想一個一個點開看，需要按分類、價格、評分直接篩選出候選清單</p></div>
+    <div class="need-item"><div class="num">需求 2</div><h4>🎯 場景導向推薦</h4><p>「我要做簡報」、「我要寫論文」— 用戶想要直接對應使用情境的推薦</p></div>
+    <div class="need-item"><div class="num">需求 3</div><h4>💰 價格透明化</h4><p>免費方案夠用嗎？付費版多了什麼？用戶要清楚透明的答案</p></div>
+    <div class="need-item"><div class="num">需求 4</div><h4>🛡️ 信任與安全</h4><p>這工具安全嗎？資料會被拿來訓練嗎？商用有沒有版權問題？</p></div>
   </div>
 
-  <!-- Google AdSense 廣告 3 (橫幅 728×90) -->
-  <div class="ad-banner" style="flex-direction:column;gap:8px;padding:16px">
-    <div class="ad-label" style="align-self:flex-start">廣告</div>
-    <div style="min-height:90px;width:100%;display:flex;align-items:center;justify-content:center;background:#1a2744;border-radius:8px;">
-      <ins class="adsbygoogle"
-           style="display:inline-block;width:728px;height:90px"
-           data-ad-client="ca-pub-5001125823079992"
-           data-ad-slot="YOUR_SLOT_ID_3"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
-  </div>
-
-  <div class="section-title" id="compare">熱門工具比較</div>
+  <div class="section-title" id="compare">熱門 AI 工具比較</div>
   <div class="table-wrap">
     <table>
-      <thead>
-        <tr>
-          <th>工具</th>
-          <th>類別</th>
-          <th>評分</th>
-          <th>價格 (月)</th>
-          <th>免費版</th>
-          <th>適合</th>
-        </tr>
-      </thead>
+      <thead><tr><th>工具</th><th>類別</th><th>評分</th><th>價格 (月)</th><th>免費版</th><th>適合對象</th></tr></thead>
       <tbody id="compareBody"></tbody>
     </table>
   </div>
 
-  <div class="cta" id="about">
+  <div class="section-title" id="articles">最新 AI 工具文章</div>
+  <div class="blog-grid">
+    <div class="blog-card">
+      <div class="cat-tag">💬 對話</div>
+      <h3>ChatGPT vs Claude vs Gemini：2026 怎麼選？</h3>
+      <p>三大通用 AI 助手完整比較，從價格、功能到適用場景一次看懂。</p>
+      <a href="/chatgpt-vs-claude-vs-gemini.html">閱讀更多 →</a>
+    </div>
+    <div class="blog-card">
+      <div class="cat-tag">💻 程式</div>
+      <h3>2026 最好用的 AI 程式開發工具排名</h3>
+      <p>Cursor、GitHub Copilot、Claude Code 實測比較，開發者必看。</p>
+      <a href="/ai-coding-tools-2026.html">閱讀更多 →</a>
+    </div>
+    <div class="blog-card">
+      <div class="cat-tag">🎨 設計</div>
+      <h3>AI 繪圖工具入門：Midjourney、Canva、Firefly 哪個適合你？</h3>
+      <p>設計新手 vs 專業設計師的 AI 繪圖工具選擇指南。</p>
+      <a href="/ai-design-tools-guide.html">閱讀更多 →</a>
+    </div>
+    <div class="blog-card">
+      <div class="cat-tag">📚 教學</div>
+      <h3>AI 工具組合技：用最少訂閱 cover 最多需求</h3>
+      <p>每月不到 $40 美元，打造你的高效 AI 工具箱。</p>
+      <a href="/ai-tools-bundle-guide.html">閱讀更多 →</a>
+    </div>
+  </div>
+
+  <div class="ad-box">
+    <div class="label">廣告</div>
+    <div class="placeholder">Google AdSense 廣告將在此顯示（審核通過後自動投放）</div>
+  </div>
+
+  <div class="cta">
     <h2>想推薦工具或回報問題？</h2>
-    <p>這個網站是 MVP 版本，工具資料持續更新中</p>
-    <a class="btn" href="mailto:feedback@example.com">聯絡我們</a>
+    <p>這個網站持續更新中，你的建議是我們進步的動力</p>
+    <a class="btn" href="/about.html">聯絡我們</a>
   </div>
 
 </div>
 
 <div class="footer">
-  資料來源：WebFX Research, Prophet 2026, arXiv, AI Tool Lab ｜ MVP v1.0
-  <br>部分連結為商業贊助或聯盟行銷，推薦均基於客觀評測
+  <div style="margin-bottom:8px">
+    <a href="/">首頁</a> · <a href="/about.html">關於我們</a> · <a href="/privacy.html">隱私權政策</a> · <a href="/about.html">聯絡我們</a>
+  </div>
+  資料來源：WebFX Research, Prophet 2026, arXiv, AI Tool Lab ｜ © 2026 AI工具導航
 </div>
 
 <script>
 const tools = [
-  {
-    id:1, name:"ChatGPT", emoji:"🤖", cat:"chat",
-    desc:"通用對話、寫作、腦力激盪、程式輔助，適合所有人入門",
-    rating:4.6, price:"$20", free:true, users:"所有人",
-    tag:"popular", tagLabel:"🔥 熱門", url:"https://chat.openai.com"
-  },
-  {
-    id:2, name:"Claude", emoji:"🧠", cat:"chat",
-    desc:"深度分析、長文寫作、程式開發，開發者與研究員愛用",
-    rating:4.7, price:"$20", free:true, users:"開發者、研究員",
-    tag:"dev", tagLabel:"💻 開發者愛用", url:"https://claude.ai"
-  },
-  {
-    id:3, name:"Perplexity", emoji:"🔎", cat:"chat",
-    desc:"附引用來源的 AI 搜尋引擎，適合研究調查",
-    rating:4.5, price:"$20", free:true, users:"研究員、學生",
-    tag:"res", tagLabel:"📚 研究", url:"https://www.perplexity.ai"
-  },
-  {
-    id:4, name:"Cursor", emoji:"⌨️", cat:"code",
-    desc:"AI-first IDE，自動補全 + 多模型切換，2026 程式工具標準",
-    rating:4.8, price:"$20", free:true, users:"工程師",
-    tag:"dev", tagLabel:"💻 開發者愛用", url:"https://www.cursor.com"
-  },
-  {
-    id:5, name:"GitHub Copilot", emoji:"🐙", cat:"code",
-    desc:"VS Code 內建 AI 輔助，企業級整合成熟",
-    rating:4.5, price:"$10", free:true, users:"工程師",
-    tag:"dev", tagLabel:"💻 開發者愛用", url:"https://github.com/features/copilot"
-  },
-  {
-    id:6, name:"Claude Code", emoji:"⚡", cat:"code",
-    desc:"終端機多步驟任務執行，自主規劃修改程式",
-    rating:4.6, price:"$20", free:false, users:"進階開發者",
-    tag:"dev", tagLabel:"💻 開發者愛用", url:"https://claude.ai/code"
-  },
-  {
-    id:7, name:"Canva AI", emoji:"🎨", cat:"design",
-    desc:"設計小白也能用的 AI 繪圖與排版工具",
-    rating:4.4, price:"$13", free:true, users:"行銷、設計師",
-    tag:"des", tagLabel:"🎨 設計", url:"https://www.canva.com"
-  },
-  {
-    id:8, name:"Midjourney", emoji:"🖼️", cat:"design",
-    desc:"高品質 AI 影像生成，設計師首選",
-    rating:4.7, price:"$10", free:false, users:"設計師",
-    tag:"des", tagLabel:"🎨 設計", url:"https://www.midjourney.com"
-  },
-  {
-    id:9, name:"Adobe Firefly", emoji:"✨", cat:"design",
-    desc:"商用版權無虞的 AI 影像生成，整合 Adobe 生態",
-    rating:4.3, price:"$5", free:true, users:"設計師、企業",
-    tag:"des", tagLabel:"🎨 設計", url:"https://firefly.adobe.com"
-  },
-  {
-    id:10, name:"Runway", emoji:"🎬", cat:"video",
-    desc:"專業級 AI 影片生成，支援精細鏡頭控制",
-    rating:4.5, price:"$15", free:true, users:"創作者、電影人",
-    tag:"vid", tagLabel:"🎬 影片", url:"https://runwayml.com"
-  },
-  {
-    id:11, name:"HeyGen", emoji:"👤", cat:"video",
-    desc:"AI 虛擬人像影片，企業培訓與行銷用",
-    rating:4.3, price:"$24", free:true, users:"行銷、企業",
-    tag:"vid", tagLabel:"🎬 影片", url:"https://www.heygen.com"
-  },
-  {
-    id:12, name:"Jasper", emoji:"✍️", cat:"write",
-    desc:"品牌語音 AI 寫作，確保行銷文案風格一致",
-    rating:4.2, price:"$39", free:false, users:"行銷團隊",
-    tag:"wri", tagLabel:"✍️ 寫作", url:"https://www.jasper.ai"
-  },
-  {
-    id:13, name:"Notion AI", emoji:"📝", cat:"auto",
-    desc:"知識管理 + AI 搜尋與會議摘要，適合團隊協作",
-    rating:4.4, price:"$10", free:true, users:"PM、團隊",
-    tag:"auto", tagLabel:"⚙️ 自動化", url:"https://www.notion.so"
-  },
-  {
-    id:14, name:"Zapier AI", emoji:"🔗", cat:"auto",
-    desc:"串接 8000+ App，非技術人員也能建自動化流程",
-    rating:4.3, price:"$20", free:true, users:"營運、PM",
-    tag:"auto", tagLabel:"⚙️ 自動化", url:"https://zapier.com"
-  },
-  {
-    id:15, name:"Gamma", emoji:"📊", cat:"write",
-    desc:"AI 簡報生成，從草稿到完整簡報 30 分鐘",
-    rating:4.4, price:"$8", free:true, users:"業務、PM",
-    tag:"wri", tagLabel:"✍️ 寫作", url:"https://gamma.app"
-  }
+  {id:1, name:"ChatGPT", emoji:"🤖", cat:"chat", desc:"通用對話、寫作、腦力激盪、程式輔助，適合所有人入門", rating:4.6, price:"$20", free:true, users:"所有人", tag:"popular", tagLabel:"🔥 熱門", url:"https://chat.openai.com"},
+  {id:2, name:"Claude", emoji:"🧠", cat:"chat", desc:"深度分析、長文寫作、程式開發，開發者與研究員愛用", rating:4.7, price:"$20", free:true, users:"開發者、研究員", tag:"dev", tagLabel:"💻 開發者愛用", url:"https://claude.ai"},
+  {id:3, name:"Perplexity", emoji:"🔎", cat:"chat", desc:"附引用來源的 AI 搜尋引擎，適合研究調查", rating:4.5, price:"$20", free:true, users:"研究員、學生", tag:"res", tagLabel:"📚 研究", url:"https://www.perplexity.ai"},
+  {id:4, name:"Gemini", emoji:"🌟", cat:"chat", desc:"Google 生態系 AI，與 Gmail、Docs 深度整合", rating:4.3, price:"$0", free:true, users:"Google 用戶", tag:"pop", tagLabel:"🔥 熱門", url:"https://gemini.google.com"},
+  {id:5, name:"DeepSeek", emoji:"🧊", cat:"chat", desc:"開源大語言模型，性價比高，社群口碑強", rating:4.2, price:"$0", free:true, users:"開發者、研究者", tag:"res", tagLabel:"📚 研究", url:"https://chat.deepseek.com"},
+  {id:6, name:"Cursor", emoji:"⌨️", cat:"code", desc:"AI-first IDE，自動補全 + 多模型切換，2026 程式工具標準", rating:4.8, price:"$20", free:true, users:"工程師", tag:"dev", tagLabel:"💻 開發者愛用", url:"https://www.cursor.com"},
+  {id:7, name:"GitHub Copilot", emoji:"🐙", cat:"code", desc:"VS Code 內建 AI 輔助，企業級整合成熟", rating:4.5, price:"$10", free:true, users:"工程師", tag:"dev", tagLabel:"💻 開發者愛用", url:"https://github.com/features/copilot"},
+  {id:8, name:"Claude Code", emoji:"⚡", cat:"code", desc:"終端機多步驟任務執行，自主規劃修改程式", rating:4.6, price:"$20", free:false, users:"進階開發者", tag:"dev", tagLabel:"💻 開發者愛用", url:"https://claude.ai/code"},
+  {id:9, name:"Windsurf", emoji:"🏄", cat:"code", desc:"新一代 AI IDE，專注 Agent 自主程式開發", rating:4.4, price:"$15", free:true, users:"工程師", tag:"dev", tagLabel:"💻 開發者愛用", url:"https://codeium.com/windsurf"},
+  {id:10, name:"Canva AI", emoji:"🎨", cat:"design", desc:"設計小白也能用的 AI 繪圖與排版工具", rating:4.4, price:"$13", free:true, users:"行銷、設計師", tag:"des", tagLabel:"🎨 設計", url:"https://www.canva.com"},
+  {id:11, name:"Midjourney", emoji:"🖼️", cat:"design", desc:"高品質 AI 影像生成，設計師首選", rating:4.7, price:"$10", free:false, users:"設計師", tag:"des", tagLabel:"🎨 設計", url:"https://www.midjourney.com"},
+  {id:12, name:"Adobe Firefly", emoji:"✨", cat:"design", desc:"商用版權無虞的 AI 影像生成，整合 Adobe 生態", rating:4.3, price:"$5", free:true, users:"設計師、企業", tag:"des", tagLabel:"🎨 設計", url:"https://firefly.adobe.com"},
+  {id:13, name:"Figma AI", emoji:"📐", cat:"design", desc:"UI/UX 設計師專用 AI 輔助工具", rating:4.5, price:"$12", free:true, users:"UI/UX 設計師", tag:"des", tagLabel:"🎨 設計", url:"https://www.figma.com"},
+  {id:14, name:"Runway", emoji:"🎬", cat:"video", desc:"專業級 AI 影片生成，支援精細鏡頭控制", rating:4.5, price:"$15", free:true, users:"創作者、電影人", tag:"vid", tagLabel:"🎬 影片", url:"https://runwayml.com"},
+  {id:15, name:"HeyGen", emoji:"👤", cat:"video", desc:"AI 虛擬人像影片，企業培訓與行銷用", rating:4.3, price:"$24", free:true, users:"行銷、企業", tag:"vid", tagLabel:"🎬 影片", url:"https://www.heygen.com"},
+  {id:16, name:"Sora", emoji:"🎥", cat:"video", desc:"OpenAI 文字轉影片，高品質影片生成", rating:4.4, price:"$20", free:false, users:"創作者", tag:"vid", tagLabel:"🎬 影片", url:"https://openai.com/sora"},
+  {id:17, name:"Jasper", emoji:"✍️", cat:"write", desc:"品牌語音 AI 寫作，確保行銷文案風格一致", rating:4.2, price:"$39", free:false, users:"行銷團隊", tag:"wri", tagLabel:"✍️ 寫作", url:"https://www.jasper.ai"},
+  {id:18, name:"Gamma", emoji:"📊", cat:"write", desc:"AI 簡報生成，從草稿到完整簡報 30 分鐘", rating:4.4, price:"$8", free:true, users:"業務、PM", tag:"wri", tagLabel:"✍️ 寫作", url:"https://gamma.app"},
+  {id:19, name:"Notion AI", emoji:"📝", cat:"auto", desc:"知識管理 + AI 搜尋與會議摘要，適合團隊協作", rating:4.4, price:"$10", free:true, users:"PM、團隊", tag:"auto", tagLabel:"⚙️ 自動化", url:"https://www.notion.so"},
+  {id:20, name:"Zapier AI", emoji:"🔗", cat:"auto", desc:"串接 8000+ App，非技術人員也能建自動化流程", rating:4.3, price:"$20", free:true, users:"營運、PM", tag:"auto", tagLabel:"⚙️ 自動化", url:"https://zapier.com"},
+  {id:21, name:"Microsoft Copilot", emoji:"🪟", cat:"auto", desc:"Office 365 深度整合，Teams 摘要、Outlook 草稿、Excel 分析", rating:4.5, price:"$30", free:true, users:"企業用戶", tag:"auto", tagLabel:"⚙️ 自動化", url:"https://copilot.microsoft.com"}
 ];
 
-const sponsoredTool = {
-  name:"AI 表單產生器", emoji:"📋", cat:"all",
-  desc:"免費製作 AI 智慧表單，自動收集、分析回覆資料 — 廣告合作品牌推薦",
-  rating:4.2, price:"free", free:true, users:"所有人",
-  url:"https://example.com/ai-form",
-  sponsored: true
-};
+let currentCat = 'all';
 
 function renderTools(list) {
+  document.getElementById('toolCount').textContent = list.length;
   const grid = document.getElementById('toolGrid');
-  if (list.length > 2) {
-    list.splice(2, 0, sponsoredTool);
-  }
   grid.innerHTML = list.map(t => `
     <a href="${t.url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block">
       <div class="tool-card" style="cursor:pointer">
         <div class="emoji">${t.emoji}</div>
-        <h3>${t.name} ↗ ${t.sponsored ? '<sup style="font-size:.6rem;background:#f59e0b;color:#fff;padding:1px 6px;border-radius:4px;font-weight:600">贊助</sup>' : ''}</h3>
+        <h3>${t.name} ↗</h3>
         <div class="desc">${t.desc}</div>
         <div class="meta">
           <span>⭐ ${t.rating}</span>
-          <span>${t.price === 'free' ? '免費' : '💰 ' + t.price}</span>
-          <span>${t.free ? '✅ 免費版' : '🔒 付費'}</span>
+          <span>💰 ${t.price === '$0' ? '免費' : t.price}</span>
+          <span>${t.free ? '✅ 免費版' : '🔒 僅付費'}</span>
         </div>
         <span class="tag ${t.tag}">${t.tagLabel}</span>
       </div>
@@ -418,26 +274,21 @@ function renderTools(list) {
 
 function renderCompare(list) {
   const body = document.getElementById('compareBody');
-  list.splice(2, 0, sponsoredTool);
   body.innerHTML = list.map(t => `
     <tr style="cursor:pointer" onclick="window.open('${t.url}','_blank')">
-      <td><strong>${t.emoji} ${t.name} ↗ ${t.sponsored ? '<sup style="font-size:.6rem;background:#f59e0b;color:#fff;padding:1px 6px;border-radius:4px;font-weight:600">贊助</sup>' : ''}</strong></td>
+      <td><strong>${t.emoji} ${t.name} ↗</strong></td>
       <td>${t.cat === 'chat' ? '💬 對話' : t.cat === 'code' ? '💻 程式' : t.cat === 'design' ? '🎨 設計' : t.cat === 'video' ? '🎬 影片' : t.cat === 'write' ? '✍️ 寫作' : '⚙️ 自動化'}</td>
       <td class="stars">${'★'.repeat(Math.floor(t.rating))}${t.rating % 1 >= 0.5 ? '½' : ''}</td>
-      <td class="${t.price === 'free' ? 'free' : 'price'}">${t.price === 'free' ? '免費' : t.price}</td>
+      <td class="${t.price === '$0' ? 'free' : 'price'}">${t.price === '$0' ? '免費' : t.price}</td>
       <td>${t.free ? '✅ 有' : '❌ 無'}</td>
       <td>${t.users}</td>
     </tr>
   `).join('');
 }
 
-let currentCat = 'all';
-
 function setCategory(cat) {
   currentCat = cat;
-  document.querySelectorAll('#categoryFilter button').forEach(b => {
-    b.classList.toggle('active', b.dataset.cat === cat);
-  });
+  document.querySelectorAll('#categoryFilter button').forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
   filterTools();
 }
 
@@ -449,13 +300,12 @@ function filterTools() {
     list = list.filter(t =>
       t.name.toLowerCase().includes(q) ||
       t.desc.toLowerCase().includes(q) ||
-      t.cat.includes(q) ||
-      (t.cat === 'chat' && '對話研究聊天'.includes(q)) ||
-      (t.cat === 'code' && '程式開發寫程式'.includes(q)) ||
-      (t.cat === 'design' && '設計畫圖繪圖圖片'.includes(q)) ||
+      (t.cat === 'chat' && '對話研究聊天gemini'.includes(q)) ||
+      (t.cat === 'code' && '程式開發寫程式ide'.includes(q)) ||
+      (t.cat === 'design' && '設計畫圖繪圖圖片ui'.includes(q)) ||
       (t.cat === 'video' && '影片生成'.includes(q)) ||
       (t.cat === 'write' && '寫作文案簡報'.includes(q)) ||
-      (t.cat === 'auto' && '自動化整合'.includes(q))
+      (t.cat === 'auto' && '自動化整合office'.includes(q))
     );
   }
   renderTools(list);
